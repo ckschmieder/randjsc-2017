@@ -1,0 +1,57 @@
+/**
+ * 13.16.5 Post Formats Quote
+ */
+
+.type-post.format-quote .entry-summary {
+	position: relative;
+	padding: 30px 30px 0;
+	text-align: center;
+	blockquote { border-left: 0; padding: 0; }
+	.df-share-content { margin: 0 -30px; }
+}
+.quote-icon {
+	border-top: 1px solid rgba(0, 0, 0, .1);
+	width: 100%;
+	text-align: center;
+	&:before {
+		content: "\f186";
+		font-size: 1.75em;
+		font-family: Material Design Iconic Font;
+		position: relative;
+		z-index: 1;
+		top: -15px;
+		background-color: #fff;
+		padding: 0 30px;
+	}
+}
+
+.type-post.format-quote.df-standard-image-big-skny .entry-summary {
+	text-align: left;
+	.df-share-content {	margin: 0; }
+}
+
+.df_grid_fit {
+	.type-post.format-quote .entry-summary { padding: 0; }
+	.type-post.format-quote .entry-summary .df-share-content {	margin: 0; }
+}
+
+.widget_dahz_post_formats .format-quote {
+	.entry-content { text-align: center; }
+	blockquote {
+		padding: 0;
+		border-left: 0;
+	}
+	.quote-icon:before { top: -15px; }
+}
+
+/**
+ * 13.16.5.1 Quote Responsive
+ */
+@media only screen and (max-width: 959px) {
+	.type-post.format-quote .entry-summary {
+		padding: 30px 0 0;
+	}
+	.type-post.format-quote .entry-summary .df-share-content {
+		margin: 0;
+	}
+}

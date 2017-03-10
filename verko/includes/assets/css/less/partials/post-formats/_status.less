@@ -1,0 +1,72 @@
+/**
+ * 13.16.8 Post Formats Status
+ */
+.type-post.format-status .entry-summary {
+	position: relative;
+	text-align: center;
+	padding: 30px 30px 0;
+	iframe {
+		margin: 0 auto 30px !important;
+	}
+	.df-share-content {
+		margin: 0 -30px;
+	}
+}
+
+.df_grid_fit {
+	.type-post.format-status .entry-summary {
+		padding: 0;
+		.df-share-content {
+			margin: 0;
+		}
+	}
+}
+
+.status-icon {
+	border-top: 1px solid rgba(0, 0, 0, .1);
+	width: 100%;
+	&:before {
+		content: "\f106";
+		font-size: 1.75em;
+		font-family: Material Design Iconic Font;
+		position: relative;
+		z-index: 1;
+		top: -15px;
+		background-color: #fff;
+		padding: 0 30px;
+	}
+}
+
+.type-post.format-status.df-standard-image-big-skny .entry-summary {
+	text-align: left;
+	.df-share-content {	margin: 0; }
+}
+
+.df-image-left.format-status, .df-image-right.format-status {
+	.df-post-content {
+		float: none;
+		width: 100%;
+	}
+}
+
+.widget_dahz_post_formats .format-status {
+	.entry-content { text-align: center; padding: 0; }
+}
+/**
+ * 13.16.8.1 Status Responsive
+ */
+@media only screen and (max-width: 959px) {
+	.type-post.format-status .entry-summary {
+		padding: 30px 0 0;
+	}
+	.type-post.format-status .entry-summary .df-share-content {
+		margin: 0;
+	}
+}
+
+/**
+ * 13.16.8.2 Status Twitter
+ */
+iframe.twitter-tweet{
+    max-width: 100%!important;
+}

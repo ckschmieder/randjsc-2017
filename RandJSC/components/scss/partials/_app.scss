@@ -1,0 +1,131 @@
+// This is a test START
+
+.text-class {
+
+	border: 1px solid red;
+
+	.test-child {
+		display: flex;
+		flex-flow: row wrap;
+	}
+
+}
+
+// This is a test END
+
+div#df-fancy-header {
+    
+}
+div#content-wrap {
+    margin-top: 120px;
+}
+
+.main-navigation ul ul a:after, .filter-cat-blog:after {
+    border-color: #c0d96a!important;
+}
+.grayscale {
+
+    /*  -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);*/
+   filter: saturate(0%) opacity(.7);
+
+}
+h2.entry-title.df-post-title {
+    font-size: 1.5em;
+}
+ul {
+    list-style-type: initial;
+    list-style-position: outside;
+    list-style-image: initial;
+    margin-left: 1em;
+}
+p {
+  	margin-bottom: 20px;
+    margin-bottom: 1.3em;
+}
+.service .service-icon { transition: all .3s ease-in-out; }
+.service:hover .service-icon { transform: scale(1.1); }
+.main-navigation a {
+    text-transform: initial!important;
+}
+/*.menu-section.on-fixed-scroll::after {
+    content: "";
+    height: 4px;
+    display: block;
+    background-repeat: no-repeat!important;
+    background-size: cover!important;
+    background: url(http://www.dev.randjsc.com/wp-content/uploads/2016/11/topbar.jpg);
+}*/
+.header-wrapper .site-header.sticky-scroll-nav {
+  height: 75px;
+  padding: 25px 0!important;
+  border-bottom: 4px solid transparent;
+    border-image-width: 100%;
+    padding: 0;
+    border-image: url(http://www.dev.randjsc.com/wp-content/uploads/2016/11/RJ-color-bar.svg) 90;
+    -webkit-border-image: url(http://www.dev.randjsc.com/wp-content/uploads/2016/11/RJ-color-bar.svg) 90;
+}
+
+.df-header-inner {
+    padding: 0 20px;
+    width: auto;
+    max-width: 1400px;
+}
+/*a.df-sitename.diff_logo {
+    position: relative;
+    top: 4px;
+}*/
+
+.sticky-scroll-nav .df-sitename.diff_logo img {
+	max-height: inherit;
+  	width: 80px;
+  	height: auto;
+}
+
+
+/*
+Award Banner on Portfolio Grid Items
+-----------------------------------------*/
+
+.vc_grid-item {
+  max-width: 400px;
+  position: relative;
+}
+
+.award-banner {
+  position: absolute;
+  top: 0;
+  right: 5%;
+  z-index: 999999;
+  width: 20%;
+}
+
+/*
+Peso model navbar
+-----------------------------------------*/
+
+.peso-tabs .vc_tta-tabs-list {
+  display: flex;
+  // width: 800px;
+  margin: 0 auto;
+  justify-content: space-between;
+  text-align: center;
+  position: relative;
+  list-style: none;
+  
+  #nav-bar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    height: 5px;
+    background: #c0da6b;
+  }
+  a {
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 15px;
+    &:hover {
+      background: #f2f2f2;
+    }
+  }
+}

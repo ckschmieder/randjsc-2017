@@ -1,0 +1,36 @@
+.df-navibar-split-active .df-header-inner {
+    display: table;
+    position: relative;
+}
+.navbar-col.left-menu, .navbar-col.right-menu {
+    display: table-cell;
+    width: 50%;
+}
+.navbar-col.branding-menu {
+    min-width: 270px;
+}
+.navbar-col.left-menu .main-navigation {
+    text-align: right;
+}
+.navbar-col {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+.df-navibar-split-active {
+    .site-misc-tools {
+	    position: absolute;
+	    right: 0;
+	}
+	.widepad .site-misc-tools {
+	    right: 15px;
+	}
+}
+/**
+ * 14.7.1 Navbar Split Responsive
+ */
+@media only screen and ( max-width: 959px ) {
+	.navbar-col.left-menu, .navbar-col.right-menu {
+		display: none;
+	}
+}

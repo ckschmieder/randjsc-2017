@@ -1,0 +1,7 @@
+Verko - Child Changelog
+
+Version 1.1
+- Fixed: Parent Style Configuration
+
+Version 1.0
+- Initial realease

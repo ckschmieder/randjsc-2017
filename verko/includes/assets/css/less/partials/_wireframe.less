@@ -1,0 +1,182 @@
+// Set Grid 1170gs
+@grid-columns: 12;
+@column-width: 70px;
+@gutter: 30px;
+@columns: 12;
+
+// Define Media Query Breakpoints
+@bp-lg: 1200px;
+@bp-md: 992px;
+@bp-sm: 768px;
+@bp-xs: 480px;
+
+// Set container width relative to user variables
+@width: (@column-width * @columns) + (@gutter * (@columns - 1));
+@full-width-content:@column-width * @columns;
+
+@gutter-percentage: percentage(@gutter / @width) / 2 ;
+@gutter-px: @gutter / 2 ;
+
+@full-columns: true;
+
+/**
+ * 11. Wireframe Grid
+ */
+*, *:before,*:after { .borderbox(); }
+
+.df_container-fluid {
+    margin: 0 auto;
+    padding: 0;
+
+    &.fluid-max{
+      max-width: @width;
+    }
+    &.fluid-width{
+      width:100%;
+      @media only screen and (max-width:1024px){
+      width:94%;
+      }
+    }
+  }
+
+.df_row-fluid {
+    width: auto;
+    margin-left: -@gutter-px;
+    margin-right: -@gutter-px;
+    *zoom: 1;
+    &:before,&:after {
+        display: table;
+        content: " "; }
+    &:after {
+        clear: both; }
+    [class*="df_span-"] {
+        position: relative;
+        display: block;
+        float: left;
+        width: 100%;
+        min-height: 28px;
+        padding-left: @gutter-px;
+        padding-right: @gutter-px;
+        .borderbox();
+        &.right { float: right; }
+        &.right:first-child {
+            margin-left: @gutter-px; }
+        &.right:last-child {
+            margin-left: 0; }
+        &.hide { display: none; }
+    }
+    .full-width-content& [class*="df_span-"] {
+        padding-left: 0;
+        padding-right: 0; }
+
+    .df_calc-grid-column(@index, @class, @type) when (@type = width) and (@index > 0) {
+      @grid: (@column-width * @index) + (@gutter * (@index - 1));
+        .df_span-@{class}-@{index} {
+            width: percentage((@index / @grid-columns));
+        }
+    }
+
+        .df_calc-grid-column(@index, @class, @type) when (@type = pull) {
+        @grid: (@column-width * @index) + (@gutter * (@index - 1));
+        .df_span-@{class}-pull-@{index} {
+           right: percentage( (@index / @grid-columns) );
+        }
+    }
+
+    .df_calc-grid-column(@index, @class, @type) when (@type = push) {
+        @grid: (@column-width * @index) + (@gutter * (@index - 1));
+        .df_span-@{class}-push-@{index} {
+           left: percentage( (@index / @grid-columns) );
+        }
+    }
+
+    .df_calc-grid-column(@index, @class, @type) when (@type = offset) {
+        @grid: (@column-width * @index) + (@gutter * (@index - 1));
+        .df_span-@{class}-offset-@{index} {
+           margin-left: percentage( (@index / @grid-columns) );
+        }
+    }
+
+    .df_calc-grid-column(@index, @class, @type) when (@type = full-width) and (@index > 0) {
+      @grid: (@column-width * @index) + (@gutter * (@index - 1));
+        .full-width-content& .df_span-@{class}-@{index} {
+            width: percentage((@index / @grid-columns));
+        }
+    }
+
+    // Basic looping in LESS
+    .df_loop-grid-columns(@index, @class, @type) when (@index >= 1) {
+        .df_calc-grid-column(@index, @class, @type);
+        // next iteration
+        .df_loop-grid-columns((@index - 1), @class, @type);
+    }
+
+    // Create grid for specific class
+    .df_make-grid(@class) {
+        .df_loop-grid-columns(@grid-columns, @class, width);
+        .df_loop-grid-columns(@grid-columns, @class, pull);
+        .df_loop-grid-columns(@grid-columns, @class, push);
+        .df_loop-grid-columns(@grid-columns, @class, offset);
+        .df_loop-grid-columns(@grid-columns, @class, full-width);
+    }
+
+    .df_make-grid(xs);
+
+    @media only screen and (min-width: @bp-sm) {
+    .df_make-grid(sm);
+
+      //xtra
+      .df_span-col5{
+        width: 20%;
+      }
+    }
+
+    @media only screen and (min-width: @bp-md) {
+    .df_make-grid(md);
+
+     //xtra
+      .df_span-col5{
+        width: 20%;
+      }
+    }
+
+    @media only screen and (min-width: @bp-lg){
+    .df_make-grid(lg);
+
+     //xtra
+      .df_span-col5{
+        width: 20%;
+      }
+    }
+
+    .wpb_content_element {
+      margin-bottom: 30px;
+    }
+
+} // End df_row-fluid
+
+/**
+ * Visibility
+ */
+.visible-sm,.visible-tl,.visible-dt{display:none}
+@media screen and (max-width:@bp-sm){
+  .hidden-sm{display:none!important;}
+  .visible-sm{display:block!important;}
+}
+@media only screen and (min-width:@bp-sm) and (max-width:@bp-md){
+  .hidden-tl{display:none!important;}
+  .visible-tl{display:block!important;}
+}
+@media only screen and (min-width:@bp-lg){
+  .hidden-dt{display:none!important;}
+  .visible-dt{display:block!important;}
+}
+@media only screen and (min-device-width:320px) and (max-device-width:480px){
+  .no-smartphone{display:none!important;}
+}
+@media only screen and (min-device-width:768px) and (max-device-width:1024px){
+  .no-ipad{display:none!important;}
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5), only screen and (min-device-pixel-ratio:1.5){
+  .no-iphone{display:none!important;}
+}

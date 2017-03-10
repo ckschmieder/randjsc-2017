@@ -1,0 +1,96 @@
+/**
+ * 17. Comments Style
+ */
+
+.bypostauthor {
+	display: block;
+}
+
+#comments {
+
+	.comments-title, .comment-navigation {
+		margin-bottom: 30px;
+	}
+	.comment-list {
+		margin-top: 15px;
+	}
+	.comment-list li{
+		list-style-type: none;
+	}
+
+	.avatar-picture img {
+		display: block;
+	}
+
+	.comment-author.name {
+		margin-bottom: 0;
+	}
+
+	.comments-date, .comment { margin-bottom: 30px;	}
+
+	.comment-content {
+		margin-left: 90px;
+		border-bottom: 1px solid rgba(0, 0, 0, .1);
+	}
+
+	.comment-reply-link {
+		margin-right: 15px;
+	}
+	.comment-reply-link i, .edit i { margin-right: 5px; }
+
+	// .comment-reply-title { margin-top: 30px; }
+
+	ul.children {
+		margin: 30px 0px 30px 30px;
+	}
+	.assistive-text{
+		display: none
+	}
+	.form-fields span{
+		display: block;
+	}
+
+	textarea#comment {
+		margin-bottom: 0;
+	}
+
+	.submit { margin-bottom: 0; }
+
+	.edit, .reply {
+		a {
+			display: inline-block;
+			margin-bottom: 30px;
+		}
+	}
+
+}
+
+.comments-area { margin-bottom: 30px; }
+.form-submit, .comment-form {
+	margin-bottom: 0px;
+}
+.comments-area ol .comment-respond {
+	margin-bottom: 30px;
+}
+.comment-form {
+	input[type='text'], textarea {
+		border-left: 0;
+		border-top: 0;
+		border-right: 0;
+		border-radius: 0;
+		padding: 10px 10px;
+	}
+}
+
+/**
+ * 17.1 Comment Style Mobile
+ */
+@media only screen and ( max-width: 959px ) {
+	.avatar-picture { display: none; }
+	#comments .comment-content {
+		margin-left: 0;
+	}
+	#comments ul.children {
+		margin: 30px 0px 30px 15px;
+	}
+}

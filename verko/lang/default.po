@@ -1,0 +1,2197 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Verko\n"
+"POT-Creation-Date: 2015-07-30 08:37+0700\n"
+"PO-Revision-Date: 2015-08-19 13:55+0700\n"
+"Last-Translator: \n"
+"Language-Team: Dahz\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.3\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x;_ex;esc_attr_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../404.php:18
+msgid "Ooops!"
+msgstr ""
+
+#: ../404.php:19
+msgid "404 error - page not found"
+msgstr ""
+
+#: ../404.php:26
+msgid "You can search our site using the search box below or return to the"
+msgstr ""
+
+#: ../404.php:27
+msgid "Homepage"
+msgstr ""
+
+#: ../comments.php:35 ../comments.php:61
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:37 ../comments.php:63
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:74
+msgid "Comments are closed."
+msgstr ""
+
+#: ../comments.php:82
+#, php-format
+msgid "Required fields are marked %s"
+msgstr ""
+
+#: ../comments.php:86
+msgid "Leave a Reply"
+msgstr ""
+
+#: ../comments.php:87
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: ../comments.php:88
+msgid "Cancel Reply"
+msgstr ""
+
+#: ../comments.php:89
+msgid "Post Comment"
+msgstr ""
+
+#: ../comments.php:92
+msgid "Name &#42;"
+msgstr ""
+
+#: ../comments.php:92
+msgid "Name&#42;"
+msgstr ""
+
+#: ../comments.php:93
+msgid "Email &#42;"
+msgstr ""
+
+#: ../comments.php:93
+msgid "Email&#42;"
+msgstr ""
+
+#: ../comments.php:94
+msgid "Website"
+msgstr ""
+
+#: ../comments.php:97
+msgid "Comment"
+msgstr ""
+
+#: ../comments.php:99
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: ../comments.php:100
+#, php-format
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\">%4$s</a>"
+msgstr ""
+
+#: ../comments.php:100
+msgid "Log out?"
+msgstr ""
+
+#: ../comments.php:101
+msgid "Your email address will not be published."
+msgstr ""
+
+#: ../dahz/customizer/controls/typography/googlefont-array.php:3188
+msgid "Ultra Light"
+msgstr ""
+
+#: ../dahz/customizer/controls/typography/googlefont-array.php:3189
+msgid "Ultra Light Italic"
+msgstr ""
+
+#: ../dahz/customizer/controls/typography/googlefont-array.php:3190
+#: ../includes/customizer/option-settings/customizer-header-options.php:334
+msgid "Light"
+msgstr ""
+
+#: ../dahz/customizer/controls/typography/googlefont-array.php:3191
+msgid "Light Italic"
+msgstr ""
+
+#: ../dahz/customizer/controls/typography/googlefont-array.php:3192
+msgid "Book"
+msgstr ""
+
+#: ../dahz/customizer/controls/typography/googlefont-array.php:3193
+msgid "Book Italic"
+msgstr ""
+
+#: ../dahz/customizer/controls/typography/googlefont-array.php:3194
+msgid "Regular"
+msgstr ""
+
+#: ../dahz/customizer/controls/typography/googlefont-array.php:3195
+msgid "Regular Italic"
+msgstr ""
+
+#: ../dahz/customizer/controls/typography/googlefont-array.php:3196
+msgid "Medium"
+msgstr ""
+
+#: ../dahz/customizer/controls/typography/googlefont-array.php:3197
+msgid "Medium Italic"
+msgstr ""
+
+#: ../dahz/customizer/controls/typography/googlefont-array.php:3198
+msgid "Semi-Bold"
+msgstr ""
+
+#: ../dahz/customizer/controls/typography/googlefont-array.php:3199
+msgid "Semi-Bold Italic"
+msgstr ""
+
+#: ../dahz/customizer/controls/typography/googlefont-array.php:3200
+msgid "Bold"
+msgstr ""
+
+#: ../dahz/customizer/controls/typography/googlefont-array.php:3201
+msgid "Bold Italic"
+msgstr ""
+
+#: ../dahz/customizer/controls/typography/googlefont-array.php:3202
+msgid "Extra Bold"
+msgstr ""
+
+#: ../dahz/customizer/controls/typography/googlefont-array.php:3203
+msgid "Extra Bold Italic"
+msgstr ""
+
+#: ../dahz/customizer/controls/typography/googlefont-array.php:3204
+msgid "Ultra Bold"
+msgstr ""
+
+#: ../dahz/customizer/controls/typography/googlefont-array.php:3205
+msgid "Ultra Bold Italic"
+msgstr ""
+
+#: ../dahz/customizer/controls/wp/taxonomy-dropdown-custom-control.php:35
+msgid "None"
+msgstr ""
+
+#: ../dahz/customizer/dahz-customize-backup.php:23
+msgid "Restore/Import"
+msgstr ""
+
+#: ../dahz/customizer/dahz-customize-backup.php:45
+msgid "All options were restored successfully!"
+msgstr ""
+
+#: ../dahz/customizer/dahz-customize-backup.php:48
+msgid "Invalid file or file size too big."
+msgstr ""
+
+#: ../dahz/customizer/dahz-customize-backup.php:56
+msgid ""
+"If you have settings in a backup file on your computer, the customizer can "
+"import those into this site. To get started, upload your backup file to "
+"import from below."
+msgstr ""
+
+#: ../dahz/customizer/dahz-customize-backup.php:59
+msgid "Upload File and Run Import"
+msgstr ""
+
+#: ../dahz/customizer/dahz-customize-backup.php:77
+msgid "Backup/Export"
+msgstr ""
+
+#: ../dahz/customizer/dahz-customize-backup.php:81
+msgid ""
+"When you click the button below, the Customizer will create a text file for "
+"you to save to your computer."
+msgstr ""
+
+#: ../dahz/customizer/dahz-customize-backup.php:82
+#, php-format
+msgid ""
+"This text file can be used to restore your settings here on \"%s\", or to "
+"easily setup another website with the same settings\"."
+msgstr ""
+
+#: ../dahz/customizer/dahz-customize-backup.php:83
+msgid "Download Export File"
+msgstr ""
+
+#: ../dahz/functions/attr.php:192
+#, php-format
+msgid "%s Sidebar"
+msgstr ""
+
+#: ../dahz/functions/attr.php:218
+#, php-format
+msgid "%s Menu"
+msgstr ""
+
+#: ../dahz/functions/attr.php:455 ../dahz/functions/attr.php:580
+msgid "l, F j, Y, g:i a"
+msgstr ""
+
+#: ../dahz/functions/breadcrumbs.php:50
+msgid "You are here:"
+msgstr ""
+
+#: ../dahz/functions/breadcrumbs.php:53
+msgid "Home "
+msgstr ""
+
+#: ../dahz/functions/breadcrumbs.php:269
+msgid "g:i a"
+msgstr ""
+
+#: ../dahz/functions/breadcrumbs.php:272
+#, php-format
+msgid "Minute %1$s"
+msgstr ""
+
+#: ../dahz/functions/breadcrumbs.php:272
+msgid "i"
+msgstr ""
+
+#: ../dahz/functions/breadcrumbs.php:275
+msgid "g a"
+msgstr ""
+
+#: ../dahz/functions/breadcrumbs.php:285 ../dahz/functions/breadcrumbs.php:291
+#: ../dahz/functions/breadcrumbs.php:296 ../dahz/functions/breadcrumbs.php:301
+msgid "Y"
+msgstr ""
+
+#: ../dahz/functions/breadcrumbs.php:286 ../dahz/functions/breadcrumbs.php:297
+msgid "F"
+msgstr ""
+
+#: ../dahz/functions/breadcrumbs.php:287
+msgid "j"
+msgstr ""
+
+#: ../dahz/functions/breadcrumbs.php:292
+#, php-format
+msgid "Week %1$s"
+msgstr ""
+
+#: ../dahz/functions/breadcrumbs.php:308
+#, php-format
+msgid "Search results for &quot;%1$s&quot;"
+msgstr ""
+
+#: ../dahz/functions/breadcrumbs.php:312
+msgid "404 Not Found"
+msgstr ""
+
+#: ../dahz/functions/breadcrumbs.php:404
+#, php-format
+msgid "View %s"
+msgstr ""
+
+#: ../dahz/functions/data-head.php:111
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../dahz/functions/pagination.php:75
+msgid "<i class=\"fa-caret-left\"></i>"
+msgstr ""
+
+#: ../dahz/functions/pagination.php:76
+msgid "<i class=\"fa-caret-right\"></i>"
+msgstr ""
+
+#: ../dahz/screen/dahz-screen-addons.php:42
+#, php-format
+msgid "Extend %s"
+msgstr ""
+
+#: ../dahz/screen/dahz-screen-backup.php:46
+msgid "Backup Settings"
+msgstr ""
+
+#: ../dahz/screen/dahz-screen-home.php:44
+#, php-format
+msgid "Welcome to %s"
+msgstr ""
+
+#: ../dahz/screen/dahz-screen-home.php:47
+#, php-format
+msgid "Version %s"
+msgstr ""
+
+#: ../dahz/screen/dahz-screen-home.php:72
+#, php-format
+msgid "Customize %s"
+msgstr ""
+
+#: ../includes/admin/enqueue/localize.php:69
+msgid "All Post Loaded"
+msgstr ""
+
+#: ../includes/admin/enqueue/localize.php:74
+msgid "Filter By :"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-admin.class.php:227
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:455
+msgid "Upload"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-admin.class.php:228
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:386
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:457
+msgid "Remove"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:91
+#, php-format
+msgid "%s (Invalid)"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:95
+#, php-format
+msgid "%s (Pending)"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:160
+msgid "sub item"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:192
+msgid "Edit Menu Item"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:201
+msgid "URL"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:208
+msgid "Navigation Label"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:214
+msgid "Title Attribute"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:221
+msgid "Open link in a new window/tab"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:226
+msgid "CSS Classes (optional)"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:233
+msgid "Enable Button"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:238
+msgid "Link Relationship (XFN)"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:244
+msgid "Description"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:246
+msgid ""
+"The description will be displayed in the menu if the current theme supports "
+"it."
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:255
+msgid "Icon :"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:258
+msgid "no"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:262
+msgid "iconfont"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:266
+msgid "custom image"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:271
+msgid "Iconfont code"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:291
+msgid "Enable Mega Menu"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:297
+msgid "Fullwidth"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:301
+msgid "Number of columns: "
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:309
+msgid "Position: "
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:317
+msgid "Menu Text Align: "
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:329
+msgid "Hide title in mega menu"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:335
+msgid "Remove link"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:341
+msgid "This item should start a new row"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:349
+msgid "This item should start a new column"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:361
+msgid "Move"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:362
+msgid "Up one"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:363
+msgid "Down one"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:366
+msgid "To the top"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:373
+#, php-format
+msgid "Original: %s"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:387
+msgid "Cancel"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:451
+msgid "No file chosen"
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:460
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: ../includes/admin/extensions/mega-menu/custom-menu-edit.class.php:485
+msgid "View File"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-layout.php:6
+msgid "Primary location menu"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-layout.php:6
+msgid "Default menu"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-layout.php:15
+msgid "Page / Post Layout"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-layout.php:22
+#: ../includes/customizer/theme-customizer.php:90
+msgid "Layout"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-layout.php:33
+msgid "Enable sidebar off-canvas"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-layout.php:39
+msgid "Enable footer"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-layout.php:45
+msgid "Primary menu"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:12
+msgid "Header Settings"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:19
+msgid "Choose Header Layout"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:31
+msgid "Header Style"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:43
+msgid "Enable offset content"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:49
+msgid "Header Alignment"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:60
+msgid "Title"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:66
+msgid "Title Color"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:71
+msgid "Subtitle"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:77
+msgid "Subtitle Color"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:82
+msgid "Background Options"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:86
+msgid "Normal Background"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:87
+msgid "Parallax Background"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:88
+msgid "Video Background"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:93
+#: ../includes/customizer/option-settings/customizer-button-options.php:53
+#: ../includes/customizer/option-settings/customizer-content-options.php:101
+#: ../includes/customizer/option-settings/customizer-content-options.php:217
+#: ../includes/customizer/option-settings/customizer-footer-options.php:118
+#: ../includes/customizer/option-settings/customizer-footer-options.php:260
+#: ../includes/customizer/option-settings/customizer-header-options.php:161
+#: ../includes/customizer/option-settings/customizer-header-options.php:170
+msgid "Background Color"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:98
+msgid "Upload Image"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:105
+msgid "Upload Video"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:110
+msgid ""
+"Only works for desktop view, on mobile the site will desplay normal "
+"background"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:113
+msgid "Repeat Options"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:125
+#: ../includes/customizer/option-settings/customizer-content-options.php:35
+#: ../includes/customizer/option-settings/customizer-content-options.php:151
+#: ../includes/customizer/option-settings/customizer-footer-options.php:53
+#: ../includes/customizer/option-settings/customizer-footer-options.php:195
+#: ../includes/customizer/option-settings/customizer-header-options.php:205
+#: ../includes/customizer/option-settings/customizer-misc-options.php:182
+msgid "Repeat X"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:136
+#: ../includes/customizer/option-settings/customizer-content-options.php:36
+#: ../includes/customizer/option-settings/customizer-content-options.php:152
+#: ../includes/customizer/option-settings/customizer-footer-options.php:54
+#: ../includes/customizer/option-settings/customizer-footer-options.php:196
+#: ../includes/customizer/option-settings/customizer-header-options.php:206
+#: ../includes/customizer/option-settings/customizer-misc-options.php:183
+msgid "Repeat Y"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:147
+msgid "Parallax speed"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:153
+msgid "Height (px)"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:159
+msgid "Full Screen Height"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:165
+msgid "Enable Header Border"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:171
+msgid "Header Border Color Settings"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:176
+msgid "onLoad Page Title Animation"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:189
+msgid "onScroll Page Title Animation"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-page-title.php:203
+msgid "Choose slider"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-portfolio.php:24
+msgid "Single Portfolio Settings "
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-portfolio.php:31
+msgid "Enable Single Portfolio Pagination"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-portfolio.php:37
+msgid "Enable Related Project on Single Portfolio"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-portfolio.php:43
+msgid "Category To Use For Related Project"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-portfolio.php:47
+msgid "Leave It Empty To Only Use The Same Category"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-portfolio.php:50
+msgid "Back to Page Button"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-portfolio.php:56
+msgid "Select Page"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-portfolio.php:68
+msgid "Related Portfolio Text Title"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-post-format.php:4
+msgid "Single post Audio"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-post-format.php:11
+msgid "Upload Your Audio File (.mp3, .ogg or .wav)"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-post-format.php:18
+msgid "Embed Your Audio"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-post-format.php:28
+msgid "Single post video"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-post-format.php:35
+msgid "Upload Your Video ( .mp4, .ogv or .mov )"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-post-format.php:42
+msgid "Embed Your Video"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-post-format.php:52
+msgid "Single Post Featured Background"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-post-format.php:59
+msgid "Enable Featured Image As Background"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-single-blog.php:16
+msgid "Single Post Settings"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-single-blog.php:23
+msgid "List Post Layout"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-single-blog.php:27
+msgid "Normal Post"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-single-blog.php:28
+msgid "Left Post"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-single-blog.php:29
+msgid "Right Post"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-single-blog.php:32
+msgid "Active when you choose list post layout"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-single-blog.php:35
+msgid "Enable Big Post"
+msgstr ""
+
+#: ../includes/admin/extensions/meta-box/metaboxes-single-blog.php:39
+msgid "Active when you choose grid post layout"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:262
+#: ../includes/admin/extensions/tgmpa/register-plugin.php:124
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:263
+#: ../includes/admin/extensions/tgmpa/register-plugin.php:125
+msgid "Install Plugins"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:264
+#: ../includes/admin/extensions/tgmpa/register-plugin.php:126
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:265
+msgid "Something went wrong."
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:276
+#: ../includes/admin/extensions/tgmpa/register-plugin.php:138
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:277
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:278
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:2221
+#: ../includes/admin/extensions/tgmpa/register-plugin.php:139
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:279
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:1858
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:280
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:281
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:1488
+msgid "External Source"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:1492
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:1497
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:1501
+msgid "Required"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:1503
+msgid "Recommended"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:1507
+msgid "Not Installed"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:1509
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:1659
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\">Return to the Dashboard</"
+"a>"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:1675
+msgid "Plugin"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:1676
+msgid "Source"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:1677
+msgid "Type"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:1678
+msgid "Status"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:1696
+msgid "Install"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:1697
+msgid "Activate"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:2204
+msgid "Install package not available."
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:2205
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:2206
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:2207
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:2208
+msgid "Plugin install failed."
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:2209
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:2220
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:2343
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:2344
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:2348
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:2349
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:2350
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:2351
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:2355
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:2357
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/class-tgm-plugin-activation.php:2358
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/register-plugin.php:127
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../includes/admin/extensions/tgmpa/register-plugin.php:140
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: ../includes/admin/functions/contents/content-blog.php:199
+#: ../includes/admin/functions/contents/content-blog.php:695
+msgid "By"
+msgstr ""
+
+#: ../includes/admin/functions/contents/content-blog.php:267
+#: ../includes/admin/functions/contents/content-blog.php:420
+#: ../includes/admin/functions/contents/content-blog.php:712
+msgid "0"
+msgstr ""
+
+#: ../includes/admin/functions/contents/content-blog.php:267
+#: ../includes/admin/functions/contents/content-blog.php:420
+#: ../includes/admin/functions/contents/content-blog.php:712
+msgid "1"
+msgstr ""
+
+#: ../includes/admin/functions/contents/content-blog.php:267
+#: ../includes/admin/functions/contents/content-blog.php:420
+#: ../includes/admin/functions/contents/content-blog.php:712
+msgid "%"
+msgstr ""
+
+#: ../includes/admin/functions/contents/content-blog.php:289
+msgid "0 Comments"
+msgstr ""
+
+#: ../includes/admin/functions/contents/content-blog.php:289
+msgid "1 Comment"
+msgstr ""
+
+#: ../includes/admin/functions/contents/content-blog.php:289
+msgid "% Comments"
+msgstr ""
+
+#: ../includes/admin/functions/contents/content-blog.php:302
+msgid ", "
+msgstr ""
+
+#: ../includes/admin/functions/contents/content-blog.php:401
+#: ../includes/admin/functions/contents/content-blog.php:430
+#: ../includes/customizer/theme-customizer.php:96
+msgid "Share"
+msgstr ""
+
+#: ../includes/admin/functions/contents/content-blog.php:489
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:177
+msgid "Continue reading"
+msgstr ""
+
+#: ../includes/admin/functions/contents/content-blog.php:548
+msgid "About "
+msgstr ""
+
+#: ../includes/admin/functions/contents/content-blog.php:637
+msgid "You May Also Like"
+msgstr ""
+
+#: ../includes/admin/functions/df-like.class.php:59
+#: ../includes/admin/functions/df-like.class.php:74
+msgid "Like this"
+msgstr ""
+
+#: ../includes/admin/functions/df-like.class.php:62
+#: ../includes/admin/functions/df-like.class.php:77
+msgid "You already like this!"
+msgstr ""
+
+#: ../includes/admin/functions/paginations.php:33
+msgid "Prev"
+msgstr ""
+
+#: ../includes/admin/functions/paginations.php:38
+msgid "Next"
+msgstr ""
+
+#: ../includes/admin/functions/paginations.php:99
+msgid "Next Page <i class=\"df-arrow-grand-right\"></i>"
+msgstr ""
+
+#: ../includes/admin/functions/paginations.php:119
+msgid "load more"
+msgstr ""
+
+#: ../includes/admin/functions/templates/template-media.php:95
+#, php-format
+msgid "%1$s &#215; %2$s"
+msgstr ""
+
+#: ../includes/admin/functions/templates/template-post.php:155
+msgid "Untitled"
+msgstr ""
+
+#: ../includes/admin/functions/templates/template-tags.php:24
+msgid "Home"
+msgstr ""
+
+#: ../includes/admin/functions/title-controller.php:93
+msgid "Search Results.."
+msgstr ""
+
+#: ../includes/admin/functions/title-controller.php:102
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: ../includes/admin/functions/title-controller.php:105
+msgid "Blog"
+msgstr ""
+
+#: ../includes/admin/functions/utilities.php:218
+#: ../includes/templates/content/none.php:3
+msgid "Nothing Found"
+msgstr ""
+
+#: ../includes/admin/functions/utilities.php:219
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again some "
+"different keyword"
+msgstr ""
+
+#: ../includes/admin/functions/utilities.php:265
+msgid "Pages : "
+msgstr ""
+
+#: ../includes/admin/functions/utilities.php:285
+msgid ""
+"This post is password protected. To view it, please enter your password "
+"below:"
+msgstr ""
+
+#: ../includes/admin/theme-comments.php:25
+msgid "at"
+msgstr ""
+
+#: ../includes/admin/theme-comments.php:35
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../includes/admin/theme-comments.php:41
+msgid "Reply"
+msgstr ""
+
+#: ../includes/admin/theme-comments.php:44
+#: ../includes/templates/content/page.php:15
+msgid "Edit"
+msgstr ""
+
+#: ../includes/admin/theme-setup.php:157
+msgid "Primary Menu"
+msgstr ""
+
+#: ../includes/admin/theme-setup.php:158
+msgid "Top Menu"
+msgstr ""
+
+#: ../includes/admin/theme-setup.php:159
+#: ../includes/customizer/option-settings/customizer-header-options.php:421
+msgid "Off Canvas Menu"
+msgstr ""
+
+#: ../includes/admin/theme-setup.php:164
+msgid "Split Left Menu"
+msgstr ""
+
+#: ../includes/admin/theme-setup.php:165
+msgid "Split Right Menu"
+msgstr ""
+
+#: ../includes/admin/theme-sidebar.php:11
+msgid "Primary Sidebar"
+msgstr ""
+
+#: ../includes/admin/theme-sidebar.php:11
+msgid ""
+"The default primary sidebar for your website, used in two or three-column "
+"layouts."
+msgstr ""
+
+#: ../includes/admin/theme-sidebar.php:16
+#: ../includes/admin/theme-sidebar.php:22
+#: ../includes/admin/theme-sidebar.php:26
+#: ../includes/admin/theme-sidebar.php:30
+#, php-format
+msgid "Footer %d"
+msgstr ""
+
+#: ../includes/admin/theme-sidebar.php:16
+#: ../includes/admin/theme-sidebar.php:22
+#: ../includes/admin/theme-sidebar.php:26
+#: ../includes/admin/theme-sidebar.php:30
+#, php-format
+msgid "Widgetized Footer Region %d."
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-adspace.php:16
+msgid ""
+"This is a DahzFramework standardized widget to add any type of Ad as a "
+"widget."
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-adspace.php:22
+msgid "DF Widget - Adspace Widget"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-adspace.php:138
+msgid "Advert"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-adspace.php:149
+msgid "Title (optional):"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-adspace.php:154
+msgid "Ad Code:"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-adspace.php:157
+msgid "or"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-adspace.php:160
+msgid "Image URL:"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-adspace.php:165
+msgid "Link URL:"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-adspace.php:170
+msgid "Alt text:"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-contact.php:10
+msgid ""
+"This is a DahzFramework standardized Display your Contact Informations widget"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-contact.php:14
+msgid "DF Widget - Contact Info"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-contact.php:49
+msgid "+"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-contact.php:57
+msgid " E-Mail"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-contact.php:96
+msgid "Contact Info"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-contact.php:101
+#: ../includes/admin/widgets/widget-dahz-icon.php:116
+#: ../includes/admin/widgets/widget-dahz-popular-posts.php:143
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:257
+#: ../includes/admin/widgets/widget-dahz-recent-comments.php:134
+#: ../includes/admin/widgets/widget-dahz-recent-posts.php:164
+#: ../includes/admin/widgets/widget-dahz-subscribe.php:135
+msgid "Title:"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-contact.php:106
+msgid "Title image URL ( Optional ):"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-contact.php:137
+msgid "Disable Social Icons"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-icon.php:16
+msgid ""
+"This is a DahzFramework standardized widget to add any type of Fontawesome "
+"Icons or Material Design Iconic Font as a widget."
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-icon.php:22
+msgid "DF Widget - Icon Widget"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-icon.php:121
+msgid "How many links to show?"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-icon.php:139
+#, php-format
+msgid "Name %d:"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-icon.php:144
+#, php-format
+msgid "URL %d:"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-icon.php:149
+#, php-format
+msgid "Icon %d:"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-icon.php:150
+#, php-format
+msgid "Manually select from the %1$s or %2$s websites"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-popular-posts.php:7
+msgid "This is a DahzFramework standardized most popular Posts widget."
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-popular-posts.php:8
+msgid "DF Widget - Popular Posts"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-popular-posts.php:38
+msgid "Popular Posts"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-popular-posts.php:47
+msgid "on"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-popular-posts.php:146
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:260
+#: ../includes/admin/widgets/widget-dahz-recent-posts.php:167
+msgid "Number of posts to show:"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-popular-posts.php:150
+#: ../includes/admin/widgets/widget-dahz-recent-posts.php:174
+msgid "Display Image ?"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-popular-posts.php:154
+msgid "Display favourite icon ?"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:24
+msgid "DF Widget - Post Formats"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:26
+msgid ""
+"This is a DahzFramework standardized Use this widget to list your recent "
+"Quote, Video, Audio, Image, Gallery, and Link posts."
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:44
+msgid "Videos"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:45
+msgid "More videos"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:48
+msgid "Audio"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:49
+msgid "More audio"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:52
+msgid "Quotes"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:53
+msgid "More quotes"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:56
+msgid "Links"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:57
+msgid "More links"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:60
+msgid "Galleries"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:61
+msgid "More galleries"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:64
+msgid "Asides"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:65
+msgid "More asides"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:68
+msgid "Chats"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:69
+msgid "More chats"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:72
+msgid "Statuses"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:73
+msgid "More statuses"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:77
+msgid "Images"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:78
+msgid "More images"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:205
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:208
+#, php-format
+msgid ""
+"%s <span class=\"meta-nav\"><i class=\"md-keyboard-arrow-right\"></i></span>"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-post-formats.php:263
+msgid "Post format to show:"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-recent-comments.php:7
+msgid "This is a DahzFramework standardized most recent comments widget."
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-recent-comments.php:8
+msgid "DF Widget - Recent Comments"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-recent-comments.php:63
+msgid "Recent Comments"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-recent-comments.php:101
+#, php-format
+msgid "%1$s on %3$s %2$s"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-recent-comments.php:137
+msgid "Number of comments to show:"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-recent-posts.php:7
+msgid "This is a DahzFramework standardized most recent Posts widget."
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-recent-posts.php:8
+msgid "DF Widget - Recent Posts"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-recent-posts.php:41
+msgid "Recent Posts"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-recent-posts.php:171
+msgid "Display post date &amp; comment ?"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-recent-posts.php:176
+msgid "Display image on:"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-subscribe.php:28
+msgid "This is a DahzFramework standardized Add a connect widget."
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-subscribe.php:34
+msgid "DF Widget - Connect"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-subscribe.php:52
+msgid "Connect"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-subscribe.php:131
+#, php-format
+msgid ""
+"Setup this widget in your <a href=\"%s\">customizer</a> under "
+"<strong>Connect</strong>"
+msgstr ""
+
+#: ../includes/admin/widgets/widget-dahz-subscribe.php:140
+msgid "Show Social Icons Big ?"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:9
+#: ../includes/customizer/theme-customizer.php:88
+msgid "Featured Slider"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:18
+msgid "Slider Shortcode"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:29
+msgid "Blog Layout"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:42
+msgid "Excerpt Content"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:55
+msgid "Content Grid"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:68
+#: ../includes/customizer/option-settings/customizer-blog-options.php:171
+msgid "Grid Columns"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:84
+msgid "Category Filter"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:94
+msgid "Love Button"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:104
+msgid "Pagination Style"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:108
+msgid "Number"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:109
+msgid "Infinite Scroll"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:110
+msgid "Infinite Scroll Button"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:111
+msgid "Prev / Next"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:121
+msgid "Feature Image"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:132
+msgid "Archive Layout"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:145
+msgid "Archive Content List"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:158
+msgid "Archive Content Grid"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:188
+msgid "Blog Share"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:198
+msgid "Facebook"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:208
+msgid "Twitter"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:218
+msgid "Google Plus"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:228
+msgid "Pinterest"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:238
+msgid "Mail To"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-blog-options.php:248
+msgid "LinkedIn"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-button-options.php:7
+msgid "Button Style"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-button-options.php:21
+msgid "Button Shape"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-button-options.php:35
+msgid "Color"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-button-options.php:44
+#: ../includes/customizer/option-settings/customizer-footer-options.php:301
+#: ../includes/customizer/option-settings/customizer-header-options.php:285
+#: ../includes/customizer/option-settings/customizer-header-options.php:398
+#: ../includes/customizer/option-settings/customizer-header-options.php:477
+msgid "Text Color"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-button-options.php:62
+msgid "Bottom Color"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-button-options.php:71
+msgid "Border Color"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-button-options.php:80
+msgid "Hover Color"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-button-options.php:89
+msgid "Text Hover Color"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-button-options.php:98
+msgid "Background Hover Color"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-button-options.php:107
+msgid "Bottom Hover Color"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-button-options.php:116
+msgid "Border Hover Color"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-content-options.php:11
+#: ../includes/customizer/option-settings/customizer-content-options.php:127
+#: ../includes/customizer/option-settings/customizer-header-options.php:181
+msgid "Background Image"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-content-options.php:20
+#: ../includes/customizer/option-settings/customizer-content-options.php:136
+#: ../includes/customizer/option-settings/customizer-footer-options.php:29
+#: ../includes/customizer/option-settings/customizer-footer-options.php:38
+#: ../includes/customizer/option-settings/customizer-footer-options.php:171
+#: ../includes/customizer/option-settings/customizer-footer-options.php:180
+#: ../includes/customizer/option-settings/customizer-header-options.php:190
+#: ../includes/customizer/option-settings/customizer-misc-options.php:158
+#: ../includes/customizer/option-settings/customizer-misc-options.php:167
+msgid "Background image"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-content-options.php:29
+#: ../includes/customizer/option-settings/customizer-content-options.php:145
+#: ../includes/customizer/option-settings/customizer-footer-options.php:47
+#: ../includes/customizer/option-settings/customizer-footer-options.php:189
+#: ../includes/customizer/option-settings/customizer-header-options.php:199
+#: ../includes/customizer/option-settings/customizer-misc-options.php:176
+msgid "Background Image Repeat"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-content-options.php:33
+#: ../includes/customizer/option-settings/customizer-content-options.php:149
+#: ../includes/customizer/option-settings/customizer-footer-options.php:51
+#: ../includes/customizer/option-settings/customizer-footer-options.php:193
+#: ../includes/customizer/option-settings/customizer-header-options.php:203
+#: ../includes/customizer/option-settings/customizer-misc-options.php:180
+msgid "No Repeat"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-content-options.php:34
+#: ../includes/customizer/option-settings/customizer-content-options.php:150
+#: ../includes/customizer/option-settings/customizer-footer-options.php:52
+#: ../includes/customizer/option-settings/customizer-footer-options.php:194
+#: ../includes/customizer/option-settings/customizer-header-options.php:204
+#: ../includes/customizer/option-settings/customizer-misc-options.php:181
+msgid "Repeat"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-content-options.php:44
+#: ../includes/customizer/option-settings/customizer-content-options.php:160
+#: ../includes/customizer/option-settings/customizer-footer-options.php:62
+#: ../includes/customizer/option-settings/customizer-footer-options.php:204
+#: ../includes/customizer/option-settings/customizer-header-options.php:214
+#: ../includes/customizer/option-settings/customizer-misc-options.php:191
+msgid "Background Image Position"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-content-options.php:64
+#: ../includes/customizer/option-settings/customizer-content-options.php:180
+#: ../includes/customizer/option-settings/customizer-footer-options.php:82
+#: ../includes/customizer/option-settings/customizer-footer-options.php:224
+#: ../includes/customizer/option-settings/customizer-header-options.php:234
+#: ../includes/customizer/option-settings/customizer-misc-options.php:211
+msgid "Background Size"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-content-options.php:78
+#: ../includes/customizer/option-settings/customizer-content-options.php:194
+#: ../includes/customizer/option-settings/customizer-footer-options.php:96
+#: ../includes/customizer/option-settings/customizer-footer-options.php:238
+#: ../includes/customizer/option-settings/customizer-header-options.php:248
+#: ../includes/customizer/option-settings/customizer-misc-options.php:225
+msgid "Background Attachment"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-content-options.php:92
+#: ../includes/customizer/option-settings/customizer-content-options.php:208
+#: ../includes/customizer/option-settings/customizer-footer-options.php:109
+#: ../includes/customizer/option-settings/customizer-footer-options.php:251
+#: ../includes/customizer/option-settings/customizer-misc-options.php:247
+msgid "Background color"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-content-options.php:110
+#: ../includes/customizer/option-settings/customizer-content-options.php:226
+#: ../includes/customizer/option-settings/customizer-footer-options.php:127
+#: ../includes/customizer/option-settings/customizer-footer-options.php:269
+#: ../includes/customizer/option-settings/customizer-misc-options.php:256
+msgid "Background color opacity"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-content-options.php:241
+msgid "General sidebar"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-content-options.php:250
+msgid "Sidebar Position"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-content-options.php:264
+#: ../includes/customizer/option-settings/customizer-content-options.php:273
+msgid "Accent Color"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-content-options.php:285
+msgid "General Font Size"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-content-options.php:300
+msgid "Heading Text Style"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-content-options.php:309
+msgid "Heading Font Color"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-content-options.php:318
+msgid "Heading Text Transform"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-content-options.php:333
+msgid "Heading Letter Space"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-content-options.php:347
+msgid "Body Text Style"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-content-options.php:356
+msgid "Body Font Color"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-content-options.php:365
+msgid "Body Letter Space"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-customcss-options.php:14
+msgid "CSS"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-footer-options.php:10
+msgid "Footer Widget Columns"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-footer-options.php:141
+msgid "Widget Colors"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-footer-options.php:150
+msgid "Widget Title Color"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-footer-options.php:160
+msgid "Widget Text Color"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-footer-options.php:283
+msgid "Custom Copyright Text"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-footer-options.php:292
+msgid "Text Colors"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-footer-options.php:311
+msgid "Link Color"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-general-options.php:10
+msgid "Site Max Width"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-general-options.php:21
+msgid "Site Layout"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:10
+#: ../includes/customizer/theme-customizer.php:51
+msgid "Topbar"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:20
+#: ../includes/customizer/option-settings/customizer-header-options.php:389
+#: ../includes/customizer/option-settings/customizer-header-options.php:467
+msgid "Bg Color"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:30
+msgid "Text color"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:40
+msgid "Custom Welcome Text"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:51
+msgid "Social Icon"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:62
+msgid "Custom Logo"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:70
+msgid "Spacing above the logo"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:84
+msgid "Spacing below the logo"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:98
+#: ../includes/customizer/option-settings/customizer-header-options.php:486
+msgid "Height"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:112
+msgid "Alternative Logo"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:123
+msgid "Navbar Position"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:134
+msgid "Alignment"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:150
+msgid "Wide Navbar"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:262
+msgid "Font Style"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:271
+msgid "Navigation Font Size"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:295
+msgid "Text Transform"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:311
+#: ../includes/customizer/theme-customizer.php:57
+msgid "Transparency"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:321
+msgid "Color Scheme"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:343
+msgid "Transparent Navbar Light Color"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:352
+msgid "Logo Light for Transparent Navbar"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:361
+msgid "dark"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:370
+msgid "Transparent Navbar Dark Color"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:379
+msgid "Logo Dark for Transparent Navbar"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:410
+msgid "Header Search"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:434
+msgid "Titles and Breadcrumbs"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:444
+msgid "Page Title Alignment"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:458
+msgid "Breadcrumbs"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:502
+msgid "TITLE & BREADCRUMBS ANIMATION"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:512
+msgid "onLoad Animation"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-header-options.php:529
+msgid "onScroll Animation"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:12
+msgid "Favicon"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:22
+msgid "Touch Icon (ios & android)"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:31
+msgid "Tile Icon (microsoft)"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:40
+msgid "Tile Icon Background Color"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:53
+msgid "Insert your Google analytics ID here"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:65
+msgid "Facebook URL"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:74
+msgid "Twitter URL"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:83
+msgid "Google+ URL"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:92
+msgid "YouTube URL"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:101
+msgid "Vimeo URL"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:110
+msgid "Instagram URL"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:119
+msgid "Pinterest URL"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:128
+msgid "Dribbble URL"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:137
+msgid "LinkedIn URL"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:146
+msgid "RSS Feed URL"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:238
+msgid "Background color & opacity"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:273
+msgid "Page Loader General Settings"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:282
+#: ../includes/customizer/theme-customizer.php:110
+msgid "Page Loader"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:291
+msgid "Page Loader Animation"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:295
+msgid "Fade Out"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:296
+msgid "Rotate Out Up Right"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:297
+msgid "Zoom Out"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:298
+msgid "Roll Out"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:305
+msgid "Loading Animation Settings"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:314
+msgid "Loading Animation"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:322
+msgid "Loding Animation Style"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:326
+msgid "Pulse"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:327
+msgid "Ball Rotate"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:328
+msgid "Rotating Cubes"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:329
+msgid "Stripes"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:330
+msgid "Ball Rotate Multiple"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:331
+msgid "Stripes Pulse Out"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:332
+msgid "Line Pulse"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:339
+msgid "Loding Animation Color"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:347
+msgid "Page Loader Background Color"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:355
+msgid "Loading Animation Image"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:367
+msgid "Enable Subsets"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:375
+msgid "Cyrillic"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:383
+msgid "Greek"
+msgstr ""
+
+#: ../includes/customizer/option-settings/customizer-misc-options.php:391
+msgid "Vietnamese"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer-options.php:37
+msgid "Flat"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer-options.php:38
+msgid "3D"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer-options.php:39
+msgid "Outline"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer-options.php:43
+msgid "Square"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer-options.php:44
+msgid "Round"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer-options.php:45
+msgid "Pill"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer.php:53
+msgid "Logo"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer.php:55
+msgid "Navbar"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer.php:59
+msgid "Sticky"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer.php:61
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer.php:63
+msgid "Page Title"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer.php:69
+msgid "Outer Area"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer.php:71
+msgid "Content Area"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer.php:73
+msgid "Typography"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer.php:80
+msgid "Primary Footer"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer.php:82
+msgid "Copyright Footer"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer.php:92
+msgid "Single Blog"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer.php:94
+msgid "Archive"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer.php:102
+msgid "Site Icon"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer.php:104
+msgid "Google Analytics"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer.php:106
+msgid "Social Connect"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer.php:108
+msgid "404"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer.php:112
+msgid "Font Subset"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer.php:132
+msgid "General"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer.php:134
+msgid "Button"
+msgstr ""
+
+#: ../includes/customizer/theme-customizer.php:136
+msgid "Custom CSS"
+msgstr ""
+
+#: ../includes/templates/content/none.php:8
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../includes/templates/content/none.php:10
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../includes/templates/content/none.php:13
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../includes/templates/footer/info-footer.php:28
+msgid "Copyright &copy; "
+msgstr ""
+
+#: ../includes/templates/footer/info-footer.php:28
+msgid "All Rights Reserved."
+msgstr ""
+
+#: ../includes/templates/global/off-canvas.php:51 ../sidebar.php:31
+msgid "Archives"
+msgstr ""
+
+#: ../includes/templates/global/off-canvas.php:58 ../sidebar.php:38
+msgid "Meta"
+msgstr ""
+
+#: ../searchform.php:3
+msgid "Search for:"
+msgstr ""

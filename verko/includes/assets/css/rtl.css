@@ -1,0 +1,258 @@
+/*Base*/
+pre,
+blockquote,
+dl,
+figure,
+table,
+p,
+ul,
+ol,
+form {
+  padding-right: 0;
+}
+/*Page Title*/
+/*-------------------------------------------------------------------------------------------*/
+/* PAGE TITLE */
+/*-------------------------------------------------------------------------------------------*/
+.title-left .df-header {
+  text-align: right;
+}
+.title-left .breadcrumbs {
+  text-align: left;
+}
+.title-right .df-header {
+  text-align: left;
+}
+.title-right .breadcrumbs {
+  text-align: right;
+}
+/*-------------------------------------------------------------------------------------------*/
+/* PAGE TITLE MEDIA */
+/*-------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 959px) {
+  .df-header,
+  .df-fancy-header .df-header,
+  .df-fancy-header-2 .df-header,
+  .title-left .df-header,
+  .title-right .df-header {
+    text-align: center;
+  }
+}
+/*Page Loader*/
+.ajax_loader_1 {
+  left: 0;
+  right: 50%;
+}
+/*Structure*/
+/*-------------------------------------------------------------------------------------------*/
+/* TOP BAR */
+/*-------------------------------------------------------------------------------------------*/
+.df-topbar .main-navigation li {
+  text-align: right;
+}
+/*Ajax Search*/
+/*-------------------------------------------------------------------------------------------*/
+/* AJAX SEARCH */
+/*-------------------------------------------------------------------------------------------*/
+.universe-search .universe-search-close {
+  right: auto;
+  left: 40px;
+}
+.universe-search .ajax-search-result {
+  float: right;
+  right: 0;
+}
+.universe-search .df-search-image {
+  margin: 0 0 0 20px;
+  float: right;
+}
+.search-results-scroller > .nano-content,
+.nano-scroller > .nano-content {
+  right: 0!important;
+}
+/*Navigation*/
+/*-------------------------------------------------------------------------------------------*/
+/* NAVIGATION */
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/* NAVBAR SPLIT */
+/*-------------------------------------------------------------------------------------------*/
+.navbar-col.left-menu .main-navigation {
+  text-align: left;
+}
+/*-------------------------------------------------------------------------------------------*/
+/* NAVBAR OFF CANVAS */
+/*-------------------------------------------------------------------------------------------*/
+.btnshow {
+  right: auto;
+  left: 0;
+}
+/*Post*/
+/*-------------------------------------------------------------------------------------------*/
+/*SINGLE POST CONTENTS */
+/*-------------------------------------------------------------------------------------------*/
+.single span.comment {
+  right: auto;
+  left: 0;
+}
+.single .df-share-content .df-share-components,
+.df_list_blog .df-share-components {
+  float: left;
+}
+.single .df-share-content .df-social-connect,
+.df_list_blog .df-social-connect {
+  float: right;
+}
+/*-------------------------------------------------------------------------------------------*/
+/* PAGINATION */
+/*-------------------------------------------------------------------------------------------*/
+.about-author-desc {
+  margin-right: 90px;
+}
+.single .df-share-content .df-link,
+.df_list_blog .df-link {
+  float: right;
+  margin-right: 0;
+}
+.df_list_blog .navi-next .df-link {
+  float: left;
+}
+.post-pagination .navi-next i {
+  right: auto;
+  left: 0;
+}
+.md-keyboard-arrow-right:before {
+  content: "\f1b5";
+}
+.post-pagination .navi-next a {
+  text-align: left;
+}
+.post-pagination .navi-prev i {
+  left: auto;
+  right: 0;
+}
+.md-keyboard-arrow-left:before {
+  content: "\f1b6";
+}
+.post-pagination .navi-prev a {
+  text-align: right;
+}
+/*-------------------------------------------------------------------------------------------*/
+/* YMAL */
+/*-------------------------------------------------------------------------------------------*/
+.related-post .related-bytime {
+  right: auto;
+  left: 0;
+}
+/*-------------------------------------------------------------------------------------------*/
+/* COMMENTS */
+/*-------------------------------------------------------------------------------------------*/
+.comment-content {
+  margin-left: 0;
+  margin-right: 90px;
+}
+#comments ul.children {
+  margin: 30px 90px 30px 0px;
+}
+/*-------------------------------------------------------------------------------------------*/
+/* POSTS GRID */
+/*-------------------------------------------------------------------------------------------*/
+#options-blog-sort li:first-child {
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+  border-right: 0;
+  padding-right: 0;
+}
+#options-blog-sort li:last-child {
+  border-right: 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+#options-blog-sort li {
+  border-right: 0;
+  border-left: 1px solid rgba(0, 0, 0, 0.1);
+}
+/*-------------------------------------------------------------------------------------------*/
+/* POSTS MEDIA */
+/*-------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 959px) {
+  .related-post .owl-nav {
+    right: auto;
+    left: 0;
+  }
+  .related-post .owl-next:before {
+    content: '\f236';
+  }
+  .related-post .owl-prev:before {
+    content: '\f237';
+  }
+}
+/*-------------------------------------------------------------------------------------------*/
+/* POST FORMATS */
+/*-------------------------------------------------------------------------------------------*/
+/*-------------------------------------------------------------------------------------------*/
+/* CHAT POST FORMAT */
+/*-------------------------------------------------------------------------------------------*/
+.chat-author {
+  float: right;
+}
+/*-------------------------------------------------------------------------------------------*/
+/* POST FORMAT LINK */
+/*-------------------------------------------------------------------------------------------*/
+.single .type-post.format-link .entry-header {
+  text-align: right;
+}
+/*-------------------------------------------------------------------------------------------*/
+/* PORTFOLIO */
+/*-------------------------------------------------------------------------------------------*/
+.single-portfolio .df-single-portfolio-postnav .nav-next a {
+  text-align: left;
+}
+.md-chevron-right:before {
+  content: "\f29b";
+}
+.md-chevron-left:before {
+  content: "\f29c";
+}
+/*Utilities*/
+/* Floating & Alignment */
+.col-left,
+.alignleft,
+.fl {
+  float: right;
+}
+.col-right,
+.alignright,
+.fr {
+  float: left;
+}
+/* Scrolltop */
+.scroll-top {
+  right: auto;
+  left: 30px;
+}
+/*Widgets*/
+/*-------------------------------------------------------------------------------------------*/
+/* WIDGET */
+/*-------------------------------------------------------------------------------------------*/
+.widget_search button {
+  right: auto;
+  left: 0;
+}
+.widget_dahz_popular_entries .post-favourite {
+  right: auto;
+  left: 0;
+}
+.widget_contact .fa {
+  margin-left: 10px;
+  margin-right: 0;
+}
+.selectric .label {
+  margin: 0 0 0 30px;
+}
+.selectric .button {
+  right: auto;
+  left: 0;
+}
+.icon-widget i {
+  margin-right: 0;
+  margin-left: 10px;
+}

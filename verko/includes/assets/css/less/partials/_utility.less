@@ -1,0 +1,482 @@
+/**
+ * 20. Utilities
+ */
+
+/**
+ * 20.1 Floating & Alignment
+ */
+.col-full {
+    *zoom: 1;
+    &:after {
+      content: ".";
+      display: block;
+      height: 0;
+      clear: both;
+      visibility: hidden;
+    }
+    &:before, &:after {
+      content: "\0020";
+      display: block;
+      height: 0;
+      overflow: hidden;
+    }
+}
+.col-left, .alignleft, .fl {
+    float: left;
+}
+.col-right, .alignright, .fr {
+    float: right;
+}
+.hide, .screen-reader-text {
+    display: none;
+}
+.alignleft, .alignright {
+    display: inline;
+}
+.aligncenter {
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+figure {
+    max-width: 100%;
+}
+
+/**
+ * 20.2 Clear Floats
+ */
+.clear {
+    clear: both;
+    display: block;
+    overflow: hidden;
+    visibility: hidden;
+    width: 0;
+    height: 0;
+}
+.clearfix {
+    *zoom: 1;
+    &:after {
+      clear: both;
+    }
+    &:before, &:after {
+      display: table;
+      line-height: 0;
+      content: "";
+    }
+}
+
+/**
+ * 20.3 hide and show
+ */
+.hide {
+    display: none!important;
+}
+.show {
+    display: block;
+}
+.show-inline {
+    display: inline;
+}
+
+/**
+ * 20.4 embed iframe
+ */
+embed, iframe {
+    max-width: 100%;
+}
+
+/**
+ * 20.5 global basic css .df
+ */
+.df_border {
+    border: 1px solid rgba(0,0,0,.1);
+}
+.df_border_bottom {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.df_border_top {
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+.df_link {}
+
+.df_link:hover {}
+
+.df_postmeta {}
+
+.df_postmeta:hover {}
+
+.df_square {
+    border-radius: 0 !important;
+}
+.df_round {
+    border-radius: 4px !important;
+}
+.df_pill {
+    border-radius: 100px !important;
+}
+
+/**
+ * 20.6 social connect
+ */
+ul.df-social-connect {
+    margin:0;
+    height: auto;
+    list-style-type: none;
+    li {
+        display: inline-block;
+        float: left;
+        margin-right: 1px;
+        height: 36px;
+    }
+    li a {
+        width: 36px;
+        height: 36px;
+        line-height: 36px;
+        display: inline-block;
+        overflow: hidden;
+        position: relative;
+        text-align: center;
+        vertical-align: middle;
+        transition: all 0.35s;
+    }
+    li a i {
+        margin-top: 0;
+        display: block;
+        height: 100%;
+        position: relative;
+        top: 0px;
+        transition: top 0.35s;
+        width: 100%;
+        font-size: 16px;
+        line-height: 36px;
+    }
+    li a:hover i {
+        top: -36px;
+    }
+}
+ul.df-social-connect.big-social {
+    li {
+        height: 50px;
+    }
+    li a {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    li a i {
+        font-size: 24px;
+        line-height: 50px;
+    }
+    li a:hover i {
+        top: -50px;
+    }
+}
+
+/**
+ * 20.7 brand icon color
+ */
+.facebook:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    background-color: rgba(59, 89, 152, 1) !important;
+}
+.twitter:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    background-color: rgba(0, 172, 237, 1) !important;
+}
+.google:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    background-color: rgba(209, 72, 54, 1) !important;
+}
+.youtube:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    background-color: rgba(205, 50, 45, 1) !important;
+}
+.vimeo:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    background-color: rgba(68, 187, 255, 1) !important;
+}
+.instagram:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    background-color: rgba(63, 114, 155, 1) !important;
+}
+.pinterest:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    background-color: rgba(228, 31, 17, 1) !important;
+}
+.dribbble:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    background-color: rgba(234, 76, 137, 1) !important;
+}
+.linkedin:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    background-color: rgba(0, 127, 177, 1) !important;
+}
+.rss:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    background-color: rgba(255, 131, 0, 1) !important;
+}
+.mail-to:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    background-color: rgba(4, 159, 179, 1) !important;
+}
+.tumblr:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    background-color: rgba(50, 80, 109, 1) !important;
+}
+.reddit:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    background-color: rgba(255, 69, 0, 1) !important;
+}
+.stumbleupon:hover {
+    color: rgba(255, 255, 255, 1) !important;
+    background-color: rgba(234, 75, 36, 1) !important;
+}
+
+/**
+ * 20.8 WPCustomizer Highlighted element styling
+ */
+.highlighted-element { opacity: 1 !important; }
+.highlighted-element:after { position: absolute; content: ''; left: 0; top: 0; width: 100%; height: 100%; z-index: 100; background: rgba(28, 149, 230, 0.7); -webkit-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; transition: all 0.3s ease-in-out; -webkit-box-shadow: 0 0 20px 0px #1460e3 inset, 0 2px 50px 0 rgba(20, 96, 227,0.5) inset; -moz-box-shadow: 0 0 20px 0px #1460e3 inset, 0 2px 50px 0 rgba(20, 96, 227,0.5) inset; box-shadow: 0 0 20px 0px #1460e3 inset, 0 2px 50px 0 rgba(20, 96, 227,0.5) inset; }
+
+/**
+ * 20.9 wp admin bar
+ */
+#wpadminbar {
+    opacity: .9;
+    -webkit-transition: opacity 0.4s;
+    -moz-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+}
+#wpadminbar:hover {
+    opacity: 1
+}
+
+/**
+ * 20.10 nano scroll
+ */
+.universe-search-results{
+    height: 1000px;
+}
+.search-results-scroller,
+.nano-scroller {
+    position : relative;
+    width    : 100%;
+    height   : 100%;
+    overflow : hidden;
+}
+.search-results-scroller > .nano-content,
+.nano-scroller > .nano-content{
+    position      : absolute;
+    overflow      : scroll;
+    overflow-x    : hidden;
+    top           : 0;
+    right         : 0;
+    bottom        : 0;
+    left          : 0;
+}
+.search-results-scroller > .nano-content:focus,
+.nano-scroller > .nano-content:focus{
+    outline: thin dotted;
+}
+.search-results-scroller > .nano-content::-webkit-scrollbar,
+.nano-scroller > .nano-content::-webkit-scrollbar{
+    display: none;
+}
+.has-scrollbar > .nano-content::-webkit-scrollbar {
+    display: block;
+}
+.search-results-scroller > .nano-pane,
+.nano-scroller > .nano-pane{
+    /*background : rgba(0,0,0,.25);*/
+    position   : absolute;
+    width      : 10px;
+    right      : 0;
+    top        : 0;
+    bottom     : 0;
+    visibility : hidden\9; /* Target only IE7 and IE8 with this hack */
+    opacity    : .01;
+    -webkit-transition    : .2s;
+    -moz-transition       : .2s;
+    -o-transition         : .2s;
+    transition            : .2s;
+    -moz-border-radius    : 5px;
+    -webkit-border-radius : 5px;
+    border-radius         : 5px;
+}
+.search-results-scroller > .nano-pane > .nano-slider,
+.nano-scroller > .nano-pane > .nano-slider{
+    background: #444;
+    background: rgba(0,0,0,.25);
+    position              : relative;
+    margin                : 0 0 0 5px;
+    -moz-border-radius    : 3px;
+    -webkit-border-radius : 3px;
+    border-radius         : 3px;
+}
+.search-results-scroller:hover > .nano-pane,
+.nano-pane.active,
+.nano-pane.flashed,
+.nano-scroller:hover > .nano-pane {
+    visibility : visible\9; /* Target only IE7 and IE8 with this hack */
+    opacity    : 0.99;
+}
+
+/**
+ * 20.11 child pages
+ */
+.df-child-pages {
+    margin: 0px;
+    list-style: none;
+    li{
+        position: relative;
+    }
+    ul{
+        margin: 0px;
+        display: none;
+        list-style: none;
+    }
+}
+
+/**
+ * 20.12 media print
+ */
+@media only print {
+    h1, h2, h3, h4, h5, p, a{
+        color:black!important;
+    }
+    body,
+    .df-page-header,
+    .df-footer {
+        background:white!important;
+        margin:0;
+        padding: 0px!important;
+    }
+    .df-topbar,
+    .site-misc-tools,
+    .df-navi,
+    .breadcrumbs,
+    .df-sidebar-off-canvas,
+    .df-share-content,
+    .post-pagination,
+    .related-post,
+    .footer-widgets-wrapper,
+    .df-sidebar,
+    .comment-respond,
+    .form-clear-container,
+    .reply,
+    .edit,
+    .perma {
+        display: none!important;
+    }
+    .df-page-header, .df-header-container {
+        min-height: inherit!important;
+        height: auto!important;
+        border: none!important;
+    }
+    .two-col-left .main-sidebar-container .df-main, .two-col-right .main-sidebar-container .df-main{
+        width: 100%;
+    }
+    .df-header {
+        padding: 10px;
+    }
+    .header-wrapper .menu-section.on-fixed-scroll{
+        position: relative!important;
+    }
+    figure:not(.gallery-item){
+        width: auto!important;
+        max-width: 100%!important;
+    }
+    pre{
+        width: 100%;
+        overflow: hidden;
+        white-space: pre-wrap;
+        white-space: -moz-pre-wrap;
+        white-space: -pre-wrap;
+        white-space: -o-pre-wrap;
+        word-wrap: break-word;
+    }
+}
+
+/**
+ * 20.13 btn show css
+ */
+.btnshow {
+    right: 0px;
+    top: 0px;
+    width: 36px;
+    height: 36px;
+    position: absolute;
+    text-align: center;
+    cursor: pointer;
+}
+.top-navigation .btnshow {
+    right: 0px;
+    top: -9px;
+    width: 40px;
+    height: 30px;
+    position: absolute;
+    text-align: center;
+}
+span.btnshow:after {
+    font-family: "fontAwesome";
+    content:"\f107";
+    font-weight:normal;
+    background: none;
+    font-size: 13px;
+    padding: 2px 5px;
+    color: inherit;
+}
+span.btnshow.onacc:after{
+     font-family: "fontAwesome";
+    content:"\f106";
+}
+
+/**
+ * 20.14 owl stage cursor
+ */
+.owl-stage-outer {
+  cursor: -webkit-grab;
+  cursor: -moz-grab;
+}
+
+/**
+ * 20.15 Footer visual composer
+ */
+.siteinfo {
+    .wpb_row{
+        margin: 15px 0px!important;
+    }
+    @media only screen and (max-width:768px) {
+        *{
+            text-align: center!important;
+        }
+
+    }
+}
+@media only screen and (max-width:768px) {
+    .show-inline {
+        display: block;
+    }
+}
+
+/**
+ * 20.16 Animation button 3D
+ */
+.df_button_3d {
+    .button, button:not(.fa):not(.vc_btn3-style-3d), input[type="submit"], input[type="reset"], input[type="button"] {
+        top: 0;
+    }
+    .button:hover, button:not(.fa):not(.vc_btn3-style-3d):hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
+        top: 3px;
+    }
+}
+
+/**
+ * 20.17 Featured Master Slider
+ */
+.df-slider-header {
+    .master-slider {
+        margin-bottom: 30px !important;
+    }
+}

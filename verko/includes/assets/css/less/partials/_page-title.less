@@ -1,0 +1,103 @@
+/**
+ * 15. Fancy Title
+ */
+#df-normal-header,
+#df-fancy-header,
+#df-slider-header {
+ margin-bottom: 30px;
+}
+.df-page-header {
+    background: #f4f4f4;
+    overflow: hidden;
+}
+.df-page-header, .df-fancy-header {
+    border: 1px solid rgba(0,0,0,.1);
+    border-left: 0;
+    border-right: 0;
+}
+.df-fancy-header-2 {
+    border-left: 0;
+    border-right: 0;
+}
+.df-header-container {
+    display: table;
+    width: 100%}
+.df-header {
+    padding: 30px 0;
+    display: table-cell;
+    vertical-align: middle;
+}
+.df-fancy-header .df-header, .df-fancy-header-2 .df-header {
+    width: 50%;
+    vertical-align: middle;
+}
+#df-normal-header.title-center .df-header-wrap, #df-fancy-header.title-center .df-header-wrap {
+    display: table;
+}
+#df-normal-header.title-center .df-header-container, #df-fancy-header.title-center .df-header-container {
+    display: table-cell;
+    vertical-align: middle;
+}
+.df-page-header.title-center .df-header, .df-fancy-header-2.title-center .df-header, .df-fancy-header-2.title-center .df-header-container, .df-fancy-header.title-center .df-header, .df-fancy-header.title-center .df-header-container {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.title-left .df-header {
+    text-align: left;
+}
+.title-right .df-header {
+    text-align: right;
+}
+.df-header h1, .fancy-subtitle {
+    margin: 0;
+}
+.title-left .breadcrumbs {
+    text-align: right;
+}
+.title-right .breadcrumbs {
+    text-align: left;
+}
+.breadcrumbs a{
+    color: inherit;
+}
+.breadcrumbs a:hover{
+    opacity: .8;
+    color: inherit;
+}
+.df-fancy-header-parallax {
+    background-attachment: fixed;
+    background-repeat: no-repeat!important;
+    background-size: cover;
+}
+.mobile-true .df-fancy-header-parallax {
+    background-attachment: scroll;
+    background-position: center top!important;
+    background-repeat: no-repeat!important;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+.df-fancy-header-video, .df-fancy-header-video .df-header {
+    position: relative;
+    z-index: 1;
+}
+/**
+ * 15.1 Fancy Title Responsive
+ */
+@media only screen and (max-width: 959px) {
+ 	.df-header-wrap {
+        display: table;
+    }
+    .df-header-container {
+        display: table-cell;
+        vertical-align: middle;
+        text-align: center;
+    }
+    .df-header, .df-fancy-header .df-header,
+    .df-fancy-header-2 .df-header, .title-left .df-header, .title-right .df-header {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+}

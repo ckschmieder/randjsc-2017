@@ -1,0 +1,122 @@
+@media only screen and (min-width: 960px) {
+    /*mega global*/
+    .main-navigation .df-mega-menu{
+        position: static;
+    }
+    .df-mega-menu .df_row-fluid [class*=df_span-] {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .main-navigation .menu-subtitle{
+        display: block;
+        font-size: .8em;
+        text-transform: none;
+    }
+    body .main-navigation .df-mega-menu a:after{
+        position: relative;
+    }
+    .main-navigation .df-mega-menu .new-row{
+        clear: left;
+    }
+    .main-navigation .df-mega-menu .df-mega-parent .sub-nav{
+        display: block!important;
+        position: relative;
+        left: 0px;
+        box-shadow: none;
+        float: none;
+        margin: 0;
+        padding: 0px;
+        min-width: inherit;
+    }
+    .main-navigation .df-mega-menu a{
+        min-width: inherit;
+    }
+    .main-navigation .df-mega-menu .df-mega-parent .menu-item {
+        width: 100%
+    }
+    .df-mega-menu .sub-nav li:hover ul{
+        -moz-animation: initial;
+        -webkit-animation: initial;
+        animation:initial;
+    }
+    /*mega menu full width*/
+    .main-navigation .mega-full-width > .sub-nav{
+        width: 100%;
+        left: 0px !important;
+        margin: 0px;
+    }
+    .main-navigation .mega-full-width .df-mega-parent{
+        left: 0px;
+    }
+    .has-mega-menu.df-wide-layout-active .df-header-inner{
+        position: relative;
+    }
+    /*mega menu auto width*/
+    .main-navigation .mega-auto-width.mega-column-2 > .sub-nav{
+      width: 40%;
+    }
+    .main-navigation .mega-auto-width.mega-column-3 > .sub-nav{
+      width: 60%;
+    }
+    .main-navigation .mega-auto-width.mega-column-4 > .sub-nav{
+      width: 80%;
+    }
+    .main-navigation .mega-auto-width.mega-column-5 > .sub-nav{
+      width: 100%;
+      left: 0px;
+      margin: 0px;
+    }
+    .main-navigation .mega-auto-width.mega-column-6 > .sub-nav{
+      width: 100%;
+      left: 0px;
+      margin: 0px;
+    }
+    .main-navigation .mega-auto-width .sub-nav{
+        left: auto;
+    }
+    .has-mega-menu.df-boxed-layout-active .site-header{
+        position: relative;
+    }
+    // mega position right
+    .main-navigation .mega-auto-width.mega-position-right > ul{
+        margin-left: 15px;
+    }
+    // mega menu split logo
+    .df-navibar-split-active.has-mega-menu {
+        .navbar-col{
+            position: static;
+        }
+    }
+    /*mega menu misc*/
+    .main-navigation .df-mega-menu > a > .mega-icon img{
+        display: none;
+    }
+    .main-navigation .df-mega-menu-img > ul{
+        background-position:right bottom;
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-attachment:scroll;
+
+    }
+    .main-navigation .df-mega-menu-img-child{
+        display: block;
+    }
+    .main-navigation .hide-mega-title > a span:not(.mega-icon){
+        display: none;
+    }
+    .main-navigation .mega-text-align-center .sub-nav{
+        text-align: center;
+    }
+    .main-navigation .mega-text-align-right .sub-nav {
+        text-align: right;
+    }
+    .main-navigation i.fa{
+        padding-right: 5px;
+    }
+    .main-navigation .df-mega-menu > .sub-nav > li.has-children:not(.new-column) > a{
+        font-weight: 700;
+    }
+    .main-navigation .df-mega-menu > .sub-nav > li.has-children a:before{
+        display: none
+    }
+}

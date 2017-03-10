@@ -1,0 +1,100 @@
+/**
+ * 18. Footer
+ */
+.df-footer {
+	clear: both;
+	padding: 10px;
+}
+
+/**
+ * 18.1 hidden footer
+ */
+.df-hide-footer {
+	display: none
+}
+.footer-primary-widgets {
+	background: #f4f4f4;
+	padding: 50px 0;
+}
+
+.footer-primary-widgets {
+	a, p, h4 a { color: inherit!important; }
+}
+.footer-primary-widgets a:hover	{
+	opacity: .8;
+	color: inherit!important;
+}
+.footer-primary-widgets .tagcloud a:hover,
+.footer-primary-widgets .df-social-connect a:hover {
+	opacity: 1;
+	color: #fff !important;
+}
+.scroll-top{
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	width: 30px;
+	height: 30px;
+	border: 1px solid;
+	text-align: center;
+	z-index: 9999;
+	font-size: 16px;
+}
+
+/**
+ * 18.2 responsive footer
+ */
+@media only screen and (min-width:992px) {
+	.footer-widgets-wrapper{
+		display: block!important;
+	}
+}
+@media only screen and (max-width:992px) {
+	.footer-widgets-wrapper{
+		display: none;
+	}
+	.df-hide-footer,
+	.df-hide-footer span {
+		display: block;
+		text-align: center;
+		width: 100%;
+		border-radius: 0px!important;
+		margin: 0px;
+		border: none!important;
+		color: #fff!important;
+	}
+	.df-hide-footer span{
+		font-size: 30px;
+		padding: 16px 30px;
+	}
+	.df-hide-footer span:after {
+		font-family: "Material Design Iconic Font";
+		content:"\f2a3";
+		font-weight:normal;
+		background: none;
+		color: inherit;
+	}
+	.df-hide-footer.onacc span:after {
+		content:"\f2a2"!important;
+	}
+
+	.footer-primary-widgets .df_row-fluid {
+		> div{
+			width: 50%;
+		}
+		> div:nth-child(3n+3){
+			clear: left;
+		}
+	}
+
+}
+
+@media only screen and (max-width:640px) {
+	.footer-primary-widgets .df_row-fluid {
+		> div{
+			width: 100%;
+			clear: both;
+		}
+	}
+}
+

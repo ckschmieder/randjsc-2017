@@ -1,0 +1,191 @@
+/**
+ * 19. Ajax Search
+ */
+.universe-search:after {
+	clear: both;
+}
+.universe-search .universe-search-close.ico-iphone:after,
+.universe-search .universe-search-close:before {
+	font-family: 'Material Design Iconic Font';
+	content: "\f29a";
+	font-size: 36px;
+}
+.js .universe-search {
+	display: none;
+}
+.universe-search {
+	position: fixed;
+	height: 100%;
+	left: 0;
+	top: 0;
+	width: 100%;
+	display: none;
+	z-index: 999999;
+	border-top: 1px solid #ddd;
+	zoom: 1;
+	background: rgba(255,255,255,.98);
+	-webkit-box-shadow: 0 9px 50px rgba(129, 129, 129, 0.29);
+	-moz-box-shadow: 0 9px 50px rgba(129, 129, 129, 0.29);
+	-ms-box-shadow: 0 9px 50px rgba(129, 129, 129, 0.29);
+	-o-box-shadow: 0 9px 50px rgba(129, 129, 129, 0.29);
+	box-shadow: 0 9px 50px rgba(129, 129, 129, 0.29);
+}
+
+.universe-search .universe-search-close {
+	position: absolute;
+	top: 34px;
+	right: 40px;
+	cursor: pointer;
+	z-index: 10000;
+	font-size: 14px;
+	padding: 0 4px;
+}
+.universe-search .universe-search-close:hover {
+	opacity: .8;
+}
+.universe-search .universe-search-form {
+	margin-top: 10%;
+	padding-bottom: 15px;
+	display: table;
+	border-bottom: 1px solid rgba(0,0,0,.1);
+	width: 100%;
+    transform:translateY(50px);
+    -webkit-transform:translateY(50px);
+    -moz-:translateY(50px);
+	-webkit-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+.universe-search .universe-search-form .universe-search-input {
+	padding: 0;
+	position: relative;
+	height: auto;
+	background: rgba(255,255,255,.1);
+	z-index: 10;
+	font-size: 2.375em;
+	border: none;
+	vertical-align: middle;
+	outline: 0;
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+	width: 100%;
+	margin-bottom: 0;
+	line-height: 1.875;
+}
+.universe-search .universe-search-form .universe-search-input:focus {
+	box-shadow: none;
+	-moz-box-shadow: none;
+	-webkit-box-shadow: none;
+}
+.universe-search .universe-search-form input{
+	display: table-cell;
+}
+.universe-search .universe-search-form .select-wrapper{
+	display: table-cell;
+	vertical-align: middle;
+	width: 15%;
+}
+.universe-search .universe-search-results {
+	clear: both;
+	padding: 30px 0;
+	position: relative;
+}
+.universe-search #result-not-found {
+	padding-bottom: 28px;
+}
+.universe-search .ajax-search-result {
+	display: table;
+}
+.universe-search .df-search-image {
+	line-height: 0;
+	border: none;
+	padding: 0;
+	margin: 0 20px 0 0;
+	width: 80px;
+	display: table-cell;
+	float: left;
+}
+.universe-search .df-search-content {
+	display: table-cell;
+	vertical-align: top;
+}
+.universe-search .df-search-content p {
+	margin: 0;
+}
+.universe-search .df-search-content h3 {
+	margin: 0 0 10px;
+}
+.universe-search .ajax-search-result {
+	margin-bottom: 30px;
+	float: left;
+}
+.search-container-close {
+	position: fixed;
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.universe-search.ajax-search-active .universe-search-form {
+    transform:translateY(0px);
+    -webkit-transform:translateY(0px);
+    -moz-transform:translateY(0px);
+}
+.universe-search .search-post-on .byline,
+.universe-search .df-category-content-post{
+	border: none;
+}
+.universe-search .posted-on {
+	margin-right: 5px;
+}
+.universe-search .byline {
+	margin-left: 0;
+}
+@media only screen and (max-width: 959px) {
+    .universe-search .df_container-fluid{
+        width: 90%;
+    }
+    .ajax-search-select-text,
+    .ajax-search-select-text .ajax-search-show,
+    .ajax-search-select-text .ajax-search-select,
+    .ajax-search-select-text .ajax-search-select .container-select-box,
+    .ajax-search-select-text .ajax-search-select .container-select-box select{
+        width: 100%;
+        display: block;
+        vertical-align: top;
+        text-align: center;
+        margin: 0px;
+        margin-bottom: 11px;
+    }
+    .ajax-search-select-text .ajax-search-show{
+        margin-bottom: 22px;
+    }
+    .universe-search .df-search-image{
+        float: left;
+    }
+    .ajax-search-select-text{
+        margin-top: 11px;
+        display: none;
+    }
+    .universe-search .mobile-ajax-category {
+        display: block;
+        margin-top: 11px;
+        text-align: center;
+        position: relative;
+    }
+    .universe-search .universe-search-close{
+        right: 28px;
+    }
+}
+@media only screen and (max-width:480px) {
+	.universe-search .universe-search-close{
+        right: 0px;
+        top: 10px;
+    }
+    .universe-search .universe-search-form{
+		margin-top: 17%;
+    }
+    .universe-search .universe-search-form .universe-search-input{
+		font-size: 1.2em;
+    }
+}

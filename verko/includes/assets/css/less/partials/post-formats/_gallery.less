@@ -1,0 +1,151 @@
+/**
+ * 13.16.1 Post Formats Gallery
+ */
+
+.type-post.format-gallery .featured-media { position: relative; }
+
+.df-gallery-grid {
+	margin-bottom: 30px;
+}
+
+.gallery-item {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+	margin:0;
+	position: relative;
+	overflow: hidden;
+	& img { display: block }
+}
+.gallery-item:hover .wp-caption-text {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.gallery-item .wp-caption-text {
+	position: absolute;
+	bottom: -6px;
+	background-color: rgba(255,255,255,.9);
+	color: #999;
+	padding: 10px;
+	width: 100%;
+	text-align: center;
+	-webkit-transition: -webkit-transform .35s;
+	transition: transform .35s;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}
+
+.gallery-columns-2 .gallery-item {
+	max-width: 50%;
+}
+
+.gallery-columns-3 .gallery-item {
+	max-width: 33.33%;
+}
+
+.gallery-columns-4 .gallery-item {
+	max-width: 25%;
+}
+
+.gallery-columns-5 .gallery-item {
+	max-width: 20%;
+}
+
+.gallery-columns-6 .gallery-item {
+	max-width: 16.66%;
+}
+
+.gallery-columns-7 .gallery-item {
+	max-width: 14.28%;
+}
+
+.gallery-columns-8 .gallery-item {
+	max-width: 12.5%;
+}
+
+.gallery-columns-9 .gallery-item {
+	max-width: 11.11%;
+}
+
+.gallery-caption {
+	display: block;
+}
+
+.df-image-left.format-gallery,
+.df-image-right.format-gallery {
+    margin: 0 -15px 30px;
+    .df-gallery-grid {
+        width: 50%;
+        padding: 0 15px;
+    }
+}
+.df-image-left.format-gallery .df-gallery-grid {
+    float: left;
+    overflow: hidden;
+}
+.df-image-right.format-gallery .df-gallery-grid {
+    overflow: auto;
+    float: right;
+}
+
+/**
+ * 13.16.1.1 Gallery Responsive
+ */
+@media only screen and (max-width: 959px) {
+    .df-image-left.format-gallery,
+	.df-image-right.format-gallery {
+        margin: 0 0 30px;
+        .df-gallery-grid {
+            width: 100%;
+            padding: 0;
+        }
+    }
+    .df-image-left.format-gallery .df-gallery-grid,
+    .df-image-right.format-gallery .df-gallery-grid {
+        float: none;
+        overflow: visible;
+    }
+}
+
+/**
+ * 13.16.1.2 photo swipe
+ */
+.swipeActive .df-main{
+	z-index: 99999;
+}
+.pswp{
+	z-index: 99999;
+}
+.msnry_item {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 100%;
+	margin:0;
+	position: relative;
+	overflow: hidden;
+	float: left;
+	& img {
+		display: block;
+		width: 100%;
+	}
+}
+.msnry_item:hover .photoswipe-gallery-caption {
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+.msnry_item .photoswipe-gallery-caption {
+	position: absolute;
+	bottom: 0;
+	background-color: rgba(255,255,255,.9);
+	color: #999;
+	padding: 10px;
+	line-height: 1.875em;
+	width: 100%;
+	text-align: center;
+	-webkit-transition: -webkit-transform .35s;
+	transition: transform .35s;
+	-webkit-transform: translate3d(0,100%,0);
+	transform: translate3d(0,100%,0);
+}

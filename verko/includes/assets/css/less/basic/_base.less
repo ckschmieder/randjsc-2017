@@ -1,0 +1,368 @@
+/**
+ * 10. Basic Styles
+ */
+
+/**
+ * 10.1 Site Styles
+ */
+html, body {
+    height: 100%;
+}
+body {
+    background: #fff;
+    font-size: @font-size-base;
+    font-family: @font-family-base;
+    line-height: @line-height-base;
+    color: @color-body;
+    -webkit-font-smoothing: antialiased;
+    /* Fix for webkit rendering */
+    -webkit-text-size-adjust: 100%;
+}
+
+/**
+ * 10.2 Typography
+ */
+h1, h2, h3, h4, h5, h6, blockquote {
+    font-family: "Roboto Slab", serif;
+    font-weight: 400;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #000;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+    font-weight: inherit;
+}
+// 38px
+h1 {
+    font-size: 2.375em;
+    line-height: 1.578947368em;
+    margin-top: 0;
+    margin-bottom: 0.78947368em;
+}
+// 28px
+h2 {
+    font-size: 1.75em;
+    line-height: 1.0714285714em;
+    margin-top: 0;
+    margin-bottom: 1.0714285714em;
+}
+// 21px
+h3 {
+    font-size: 1.3125em;
+    line-height: 1.428571429em;
+    margin-top: 0;
+    margin-bottom: 1.42857143em;
+}
+// 16px
+h4 {
+    font-size: 1em;
+    line-height: @line-height-base;
+    margin-top: 0;
+    margin-bottom: @line-height-base;
+}
+.subheader {
+    color: #777;
+}
+p img {
+    margin: 0;
+}
+p.lead {
+    font-size: 21px;
+    line-height: 34px;
+    color: #777;
+}
+/*  Blockquotes  */
+blockquote, blockquote p {
+    font-size: 1.3125em;
+    line-height: 1.428571429em;
+}
+blockquote {
+    margin: 0 0 30px;
+    padding: 0px 30px 0 15px;
+    border-left: 1px solid #f2f2f2;
+}
+blockquote cite {
+    display: block;
+    font-size: 13px;
+    color: #555;
+}
+blockquote cite:before {
+    content: "\2014 \0020";
+}
+blockquote cite a, blockquote cite a:visited, blockquote cite a:visited {
+    color: #555;
+}
+
+/**
+ * 10.3 Links
+ */
+a {
+  color: @link-color;
+  text-decoration: none;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+}
+a:hover {
+  color: rgba(195, 195, 195, .8);
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+  color: #000;
+}
+
+/**
+ * 10.4 Lists
+ */
+ul {
+  list-style: circle inside; }
+ol {
+  list-style: decimal inside; }
+ol, ul {
+  padding-left: 0;
+  margin-top: 0; }
+ul ul,
+ul ol,
+ol ol,
+ol ul {
+  margin: 0px 0px 0px 30px;
+}
+
+
+/**
+ * 10.5 Images
+ */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/**
+ * 10.6 Buttons
+ */
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  position: relative;
+  display: inline-block;
+  padding: 1em 1.875em;
+  font-size: 1em;
+  line-height: 1em;
+  color: #555;
+  text-align: center;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent;
+  border-radius: 0px;
+  border: none;
+  cursor: pointer;
+  box-sizing: border-box;
+  -webkit-transition: all .3s ease-out;
+  -moz-transition: all .3s ease-out;
+  transition: all .3s ease-out;
+  -webkit-box-shadow: 0px 6px transparent;
+  -moz-box-shadow: 0px 6px transparent;
+  -ms-box-shadow: 0px 6px transparent;
+  -o-box-shadow: 0px 6px transparent;
+  box-shadow: 0px 6px transparent;
+}
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  color: #333;
+  border-color: #888;
+  outline: 0; }
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0; }
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #1EAEDB;
+  border-color: #1EAEDB; }
+
+  /* Fix for odd Mozilla border & padding issues */
+  button::-moz-focus-inner,
+  input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+
+
+/**
+ * 10.7 Forms
+ */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  height: 3em;
+  padding: 6px 10px; /* The 6px vertically centers text on FF, ignored by Webkit */
+  background-color: transparent;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box; }
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; }
+textarea {
+  min-height: 180px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  max-width: 100%;
+}
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  border: 1px solid #33C3F0;
+  outline: 0; }
+label,
+legend {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600; }
+fieldset {
+  padding: 0;
+  border-width: 0; }
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline; }
+label > .label-body {
+  display: inline-block;
+  margin-left: 5px;
+  font-weight: normal; }
+select { // remove arrow dropdown from browser default and use Semantic UI
+    -moz-appearance: none;
+    //-webkit-appearance:none;
+    text-indent: 0.01px;
+    text-overflow: '';
+}
+
+
+/**
+ * 10.8 Code
+ */
+code {
+  padding: 2px 5px;
+  margin: 0 2px;
+  font-size: 90%;
+  white-space: nowrap;
+  background: #F1F1F1;
+  border: 1px solid #E1E1E1;
+  border-radius: 4px; }
+pre > code {
+  display: block;
+  padding: 10px 15px;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-wrap: break-word; }
+
+
+/**
+ * 10.9 Tables
+ */
+th,
+td {
+  padding: 13px 16px;
+  text-align: left;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
+th:first-child,
+td:first-child {
+  padding-left: 0; }
+th:last-child,
+td:last-child {
+  padding-right: 0; }
+.scrollable.has-scroll>div{
+  overflow-x: auto;
+}
+
+/**
+ * 10.10 Spacing
+ */
+button,
+.button {
+  margin-bottom: 10px; }
+input,
+textarea,
+select,
+fieldset {
+  margin-bottom: 15px; }
+pre,
+blockquote,
+dl,
+figure,
+table,
+p,
+ul,
+ol,
+form {
+  margin: 0 0 30px; }
+
+
+/**
+ * 10.11 Utilities
+ */
+.u-full-width {
+  width: 100%;
+  box-sizing: border-box; }
+.u-max-full-width {
+  max-width: 100%;
+  box-sizing: border-box; }
+.u-pull-right {
+  float: right; }
+.u-pull-left {
+  float: left; }
+
+
+/**
+ * 10.12 Misc
+ */
+hr {
+  border-width: 0;
+  border-top: 1px solid #E1E1E1;
+  clear: both; }

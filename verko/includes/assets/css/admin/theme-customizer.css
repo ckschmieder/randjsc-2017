@@ -1,0 +1,73 @@
+.in-sub-panel #df-customizer-tools {
+    padding-left: 0;
+}
+.wp-full-overlay-sidebar .wp-full-overlay-sidebar-content {
+    top: 42px;
+}
+.in-sub-panel #customize-theme-controls .accordion-section.current-panel {
+    top: 0;
+}
+#df-customizer-tools {
+    padding-left: 45px;
+    padding-top: 5px;
+}
+#df-customizer-tools .button {
+    font-size: 25px;
+    width: 50px;
+}
+#overlay-customcss {
+    display: none;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background: rgba(255,255,255,.95);
+    z-index: 90;
+}
+
+#overlay-customcss form {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    right: 100px;
+    bottom: 100px;
+    padding: 0;
+    margin: 0!important;
+    outline: 0!important;
+    background: 0 0;
+}
+
+#overlay-customcss form textarea {
+    width: 100%;
+    height: 100%;
+    font-size: 14px;
+    color: #333;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: none;
+    outline: 0;
+    background: 0 0;
+    overflow: scroll;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -ms-border-radius: 0;
+    -o-border-radius: 0;
+    border-radius: 0;
+}
+
+#accordion-section-df_customizer_custom_style_section {
+    display: none !important;
+}

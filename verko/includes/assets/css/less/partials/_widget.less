@@ -1,0 +1,291 @@
+/**
+ * 16. Widget
+ */
+.widget {
+	margin-bottom: 30px;
+	& li {
+		margin:0 0 5px;
+		list-style-type: none;
+		position: relative;
+	}
+	& .post-count {
+		position: absolute;
+		right: 0;
+	}
+	& ul ul {
+		margin: 5px 0;
+	}
+	& table {
+		width: 100%;
+	}
+}
+
+/**
+ * 16.1 Popular Post
+ */
+.widget_dahz_popular_entries > a {
+	display: inline-block;
+	overflow: hidden;
+	max-width: 70px;
+	max-height: 70px;
+}
+.widget_dahz_popular_entries .post-favourite {
+	position: absolute;
+	right: 0;
+	top: 0;
+}
+.widget_dahz_popular_entries .popular-section {
+	vertical-align: top;
+	padding-left: 90px;
+}
+.sidebar-off-canvas .widget_dahz_popular_entries .popular-section {
+	padding: 0 25px 0 15px;
+	width: 70%;
+}
+
+.widget_dahz_popular_entries .popularentries{
+	width: 100%;
+	margin-bottom: 15px;
+	img{
+		min-width: 70px;
+		width:70px;
+		max-width: 70px;
+		margin-right: 20px;
+		float: left;
+	}
+}
+
+/**
+ * 16.2 Post Format Widget
+ */
+.widget_dahz_post_formats ul {
+	margin-bottom: 20px;
+}
+.widget_dahz_post_formats li {
+	margin-bottom: 15px;
+	&:last-child { margin-bottom: 0; }
+}
+.widget_dahz_post_formats .entry-title {
+	display: block;
+	margin: 10px 0;
+}
+.widget_dahz_post_formats .format-image .entry-content {
+	line-height: 0;
+}
+.widget_dahz_post_formats i { vertical-align: middle; }
+
+/**
+ * 16.3 Calendar Widget
+ */
+.widget_calendar th,
+.widget_calendar td {
+	padding: 10px 13px;
+}
+.widget_calendar caption {
+	font-weight: 700;
+}
+
+/**
+ * 16.4 Recent Comment Widget
+ */
+.widget_dahz_recent_comments img {
+	float: left;
+	margin-right: 15px;
+	overflow: hidden;
+}
+.widget_dahz_recent_comments .recentcomments {
+	margin-bottom: 15px;
+}
+.widget_dahz_recent_comments h4 {
+	margin-bottom: 0;
+}
+
+/**
+ * 16.5 Recent Post Widget
+ */
+.widget_dahz_recent_entries .recententries {
+	margin-bottom: 15px;
+	h4 { margin: 0 0 10px; }
+	.df-content { overflow: auto; }
+}
+.widget_dahz_recent_entries .df-widget-image {
+	float: left;
+	margin-right: 15px;
+	overflow: hidden;
+}
+
+/**
+ * 16.6 Category Widget
+ */
+.selectric {
+	border-bottom:1px solid rgba(0,0,0,.1);
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-radius: 0;
+	background: transparent;
+	.label{
+		color: inherit;
+	}
+	&:hover{
+		.label{
+			opacity: .8;
+		}
+	}
+
+}
+.selectricOpen .selectric {
+	background: transparent;
+}
+
+/**
+ * 16.7 Tag Widget
+ */
+.widget_tag_cloud {
+	a {
+		display: inline-block;
+		border: 1px solid rgba(0, 0, 0, .1);
+		padding: 0 8px;
+		margin-bottom: 5px;
+		border-radius: 4px;
+		color: inherit;
+	}
+}
+
+/**
+ * 16.8 Custom Menu Widget
+ */
+.widget_nav_menu ul ul {
+	margin: 0 0 0 15px;
+	display: none;
+}
+.widget_nav_menu ul ul li:last-child,
+.sidebar-off-canvas .widget_nav_menu ul ul {
+	margin: 0;
+}
+
+/**
+ * 16.9 Contact Info Widget
+ */
+.widget_contact .fa {
+	margin-right: 10px;
+}
+.widget_contact{
+	font-style: normal;
+
+	> span{
+		display: block;
+	}
+}
+.widget_contact p {
+	margin: 15px 0;
+}
+
+/**
+ * 16.10 Search Widget
+ */
+.widget_search .search-form {
+	position: relative;
+}
+.widget_search input[type="search"] {
+	width: 100%;
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	border-radius: 0;
+	font-weight: normal;
+}
+.widget_search button, .search .search-form button {
+	border: 0 !important;
+	position: absolute;
+	bottom: 30px; right: 0;
+	padding: 0;
+	background: transparent!important;
+	border: none!important;
+	-webkit-box-shadow: 0px 6px transparent !important;
+	-moz-box-shadow: 0px 6px transparent !important;
+	-ms-box-shadow: 0px 6px transparent !important;
+	-o-box-shadow: 0px 6px transparent !important;
+	box-shadow: 0px 6px transparent !important;
+	margin-bottom: 0;
+}
+
+
+/**
+ * 16.11 Connect Widget
+ */
+.widget_dahz_subscribe .sc_big ul.df-social-connect li {
+	height: 50px;
+	margin-bottom: 1px;
+}
+.widget_dahz_subscribe .sc_big ul.df-social-connect li a {
+	height: 50px;
+	width: 50px;
+}
+.widget_dahz_subscribe .sc_big ul.df-social-connect li a:hover i {
+	top: -45px;
+}
+.widget_dahz_subscribe .sc_big ul.df-social-connect a i {
+	font-size: 24px;
+	top: 6px;
+}
+.widget_dahz_subscribe ul.df-social-connect li {
+	height: 36px;
+	margin-bottom: 1px;
+}
+.widget_dahz_subscribe ul.df-social-connect li a {
+	height: 36px;
+	width: 36px;
+}
+.widget_dahz_subscribe ul.df-social-connect li a:hover i {
+	top: -37px;
+}
+.widget_dahz_subscribe ul.df-social-connect a i {
+	font-size: 16px;
+	top: 0;
+}
+
+/**
+ * 16.12 Icon Widget
+ */
+.icon-widget li {
+	margin-bottom: 15px;
+	padding-bottom: 15px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	&:last-child { border-bottom: 0; }
+}
+.icon-widget i, .icon-widget span {
+	display: inline-block;
+	vertical-align: middle;
+	margin-bottom: 0;
+}
+.icon-widget i { margin-right: 10px; }
+
+/**
+ * 16.13 Off Canvas Widget
+ */
+.df-sidebar-off-canvas{
+	position: fixed;
+	top: 50%;
+	left: 0;
+	width: 30px;
+	height: 40px;
+	font-size: 30px;
+	cursor: pointer;
+	z-index: 9909;
+	display: block;
+	color: #fff;
+	border-radius: 0px 3px 3px 0px;
+}
+
+.df-sidebar-off-canvas em{
+	position: relative;
+	top: 5px;
+}
+.ui.overlay.sidebar.sidebar-off-canvas {
+	z-index: 9999;
+	background:#fff;
+}
+.sidebar-off-canvas .nano-content{
+	padding: 20px;
+}

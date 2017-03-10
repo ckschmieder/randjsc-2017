@@ -1,0 +1,81 @@
+/**
+ * 13.16.4 Post Formats Chat
+ */
+.type-post.format-chat .entry-header {
+	position: relative;
+	padding: 30px 30px 0;
+	text-align: center;
+}
+
+.type-post.format-chat .entry-header h2,
+.type-post.format-chat .entry-header h1 { margin-bottom: 30px; }
+
+.df_grid_fit {
+	.type-post.format-chat .entry-header h2 { margin-bottom: 10px; }
+}
+
+.chat-icon {
+	border-top: 1px solid rgba(0, 0, 0, .1);
+	width: 100%;
+	&:before {
+		content: "\f0dc";
+		font-size: 1.75em;
+		font-family: Material Design Iconic Font;
+		position: relative;
+		z-index: 1;
+		top: -15px;
+		background-color: #fff;
+		padding: 0 30px;
+	}
+}
+
+.type-post.format-chat.df-standard-image-big-skny .entry-header {
+	text-align: left;
+}
+
+.df_grid_fit {
+	.type-post.format-chat .entry-header {
+		padding: 0 !important;
+		text-align: left;
+	}
+}
+
+.single .type-post.format-chat .entry-header {
+	text-align: left;
+	padding: 0 0 30px;
+}
+
+.chat-author {
+	float: left;
+	margin-right: 5px;
+}
+.chat-author cite {
+	font-style: normal;
+	font-weight: 700;
+}
+.chat-text p {
+	margin-bottom: 0;
+}
+.chat-row {
+	border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0 0 15px;
+	margin: 0 0 15px;
+	&:before { content: ''; display: table;	}
+	&:after { clear: both; content: ''; }
+	&:last-child { border-bottom: 0; padding: 0 0 20px;	margin: 0 0 20px; }
+}
+
+.widget_dahz_post_formats .format-chat {
+	.entry-content { text-align: center; }
+	h1 { margin: 0; }
+	.entry-header { text-align: left; padding: 0; }
+}
+
+/**
+ * 13.16.4.1 Chat Responsive
+ */
+@media only screen and (max-width: 959px) {
+	.type-post.format-chat .entry-header {
+		padding: 30px 0 0 !important;
+	}
+}

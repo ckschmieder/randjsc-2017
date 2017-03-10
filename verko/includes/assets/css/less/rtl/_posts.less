@@ -1,0 +1,108 @@
+/*-------------------------------------------------------------------------------------------*/
+/*SINGLE POST CONTENTS */
+/*-------------------------------------------------------------------------------------------*/
+.single span.comment {
+	right: auto;
+	left: 0;
+}
+.single .df-share-content .df-share-components, .df_list_blog .df-share-components {
+	float: left;
+}
+.single .df-share-content .df-social-connect, .df_list_blog .df-social-connect {
+	float: right;
+}
+/*-------------------------------------------------------------------------------------------*/
+/* PAGINATION */
+/*-------------------------------------------------------------------------------------------*/
+.about-author-desc {
+  margin-right: 90px;
+}
+.single .df-share-content .df-link, .df_list_blog .df-link {
+	float: right;
+	margin-right: 0;
+}
+.df_list_blog .navi-next .df-link {
+	float: left;
+}
+.post-pagination .navi-next i {
+	right: auto;
+	left: 0;
+}
+.md-keyboard-arrow-right:before {
+	content: "\f1b5";
+}
+.post-pagination .navi-next a {
+	text-align: left;
+}
+.post-pagination .navi-prev i {
+	left: auto;
+	right: 0;
+}
+.md-keyboard-arrow-left:before{
+	content: "\f1b6";
+}
+.post-pagination .navi-prev a {
+	text-align: right;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* YMAL */
+/*-------------------------------------------------------------------------------------------*/
+.related-post .related-bytime {
+	right: auto;
+	left: 0;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* COMMENTS */
+/*-------------------------------------------------------------------------------------------*/
+.comment-content {
+	margin-left: 0;
+	margin-right: 90px;
+}
+#comments ul.children {
+	margin: 30px 90px 30px 0px;
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* POSTS GRID */
+/*-------------------------------------------------------------------------------------------*/
+
+// Category Filter
+#options-blog-sort li:first-child {
+	border-left: 1px solid rgba(0,0,0,.1);
+    border-right: 0;
+    padding-right: 0;
+}
+#options-blog-sort li:last-child {
+    border-right: 0;
+    border-left: 1px solid rgba(0,0,0,.1);
+}
+#options-blog-sort li {
+    border-right: 0;
+    border-left: 1px solid rgba(0,0,0,.1);
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* POSTS MEDIA */
+/*-------------------------------------------------------------------------------------------*/
+@media only screen and (max-width: 959px) {
+	.related-post .owl-nav {
+	  right: auto;
+	  left: 0;
+	}
+	.related-post .owl-next:before {
+	  content: '\f236';
+	}
+	.related-post .owl-prev:before {
+	  content: '\f237';
+	}
+}
+
+/*-------------------------------------------------------------------------------------------*/
+/* POST FORMATS */
+/*-------------------------------------------------------------------------------------------*/
+
+@import "post-formats/_chat";
+@import "post-formats/_link";
+@import "post-formats/_portfolio";

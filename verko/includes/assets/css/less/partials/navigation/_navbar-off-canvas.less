@@ -1,0 +1,131 @@
+/**
+ * 14.9.1 general style
+ */
+.ui.overlay.sidebar.navbar-off-canvas{
+	z-index: 9999;
+}
+
+.navbar-off-canvas h1{
+	color: #fff;
+}
+
+.navbar-off-canvas .main-navigation,
+.navbar-off-canvas .site-misc-tools{
+	height: auto;
+}
+.navbar-off-canvas .main-navigation{
+	margin: 0px;
+}
+.navbar-off-canvas .main-navigation ul ul a:after{
+	display: none
+}
+.navbar-off-canvas .main-navigation{
+	.current-menu-ancestor > a,
+	.current-menu-item > a {
+		opacity: 1;
+	}
+ 	.current-menu-ancestor > a:hover,
+	.current-menu-item > a:hover {
+		opacity: .6;
+	}
+}
+ /**
+ * 14.9.2 Whole Page
+ */
+
+body.pushable {
+  background: #333333 !important;
+}
+
+/**
+ * 14.9.3 style off-canvas-navigation
+ */
+
+.off-canvas-navigation {
+  line-height: 2em;
+  padding: 30px 0px 21px 30px;
+  margin: 0px;
+}
+.off-canvas-navigation a{
+	padding: 0px;
+	margin: 0px 0px 9px!important;
+	opacity: .6;
+}
+.off-canvas-navigation a:hover{
+	opacity: 1!important;
+}
+.off-canvas-navigation li{
+	display: block;
+}
+.off-canvas-navigation li:hover>ul {
+	display: none;
+}
+.off-canvas-navigation .btnshow {
+	width: 45px;
+	padding-right: 15px;
+}
+.main-navigation .off-canvas-navigation ul {
+	box-shadow: none;
+	background: inherit;
+	position: relative;
+	float: none;
+	padding: 0px 0px 0px 15px;
+	left: 0px;
+	min-width: inherit;
+	margin: 0;
+	line-height: 2em;
+}
+.main-navigation ul.off-canvas-navigation ul a{
+	margin: 0px;
+	max-width: 200px;
+}
+.pushable .header-wrapper .menu-section{
+	z-index: 25;
+}
+
+@media only screen and (min-width:993px){
+	body.df-boxed-layout-active{
+	  -webkit-transition: background 0.4s;
+	  -moz-transition: background 0.4s;
+	  transition: background 0.4s;
+	}
+}
+/**
+ * 14.9.4 split menu
+ */
+#split-left-off-canvas-menu{
+	padding-bottom: 0px;
+}
+#split-right-off-canvas-menu{
+	padding-top: 0px;
+}
+
+/**
+ * 14.9.5 mobile css
+ */
+.mobile-primary-navbar,
+.site-misc-tools ul .df-mobile-off-canvas,
+.mobile-top-off-canvas{
+	display: none;
+}
+
+@media only screen and (max-width:992px){
+	.navbar-off-canvas .main-navigation,
+	.mobile-primary-navbar,
+	.mobile-top-off-canvas{
+		display: block!important;
+	}
+	.site-misc-tools ul .df-mobile-off-canvas{
+		display: inline-block;
+	}
+	.off-canvas-menu{
+		border-top: 1px solid rgba(0,0,0,.1);
+	}
+	.navbar-off-canvas ul.df-social-connect{
+		text-align: center;
+		padding: 30px;
+		li{
+			float: none;
+		}
+	}
+}

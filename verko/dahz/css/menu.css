@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'dahz';
+    src: url('../fonts/dahz.eot');
+    src: url('../fonts/dahz.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/dahz.woff') format('woff'),
+         url('../fonts/dahz.ttf') format('truetype'),
+         url('../fonts/dahz.svg#dahz') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+[class*='dahz-']:before{
+	display: inline-block;
+   font-family: 'dahz';
+   font-style: normal;
+   font-weight: normal;
+   line-height: 1;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale
+}
+.dahz-framework:before{content:'\0041';}
+.dahz-framework-o:before{content:'\0042';}
+
+/* Menu Icons */
+#adminmenu #toplevel_page_dahzframework .menu-icon-generic div.wp-menu-image:before {
+  font-family: 'dahz' !important;
+  content: "\0041";
+}
