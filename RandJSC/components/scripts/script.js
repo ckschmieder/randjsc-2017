@@ -70,10 +70,10 @@ jQuery(document).ready(function ($) {
 		},
 		"line_linked": {
 			"enable": true,
-			"distance": 125,
+			"distance": 130,
 			"color": "#586336",
-			"opacity": 0.7,
-			"opacity_min": 0.5,
+			"opacity": 0.8,
+			"opacity_min": 0.7,
 			"width": 2.8
 		},
 		"move": {
@@ -106,9 +106,9 @@ jQuery(document).ready(function ($) {
 		},
 		"modes": {
 			"grab": {
-				"distance": 135,
+				"distance": 145,
 				"line_linked": {
-					"opacity": .6
+					"opacity": .8
 				}
 			},
 			"bubble": {
