@@ -21,7 +21,7 @@ jQuery(document).ready(function ($) {
 
 	});
 
-	particlesJS("particles-js", {
+/*particlesJS("particles-js", {
 	"particles": {
 		"number": {
 			"value": 289,
@@ -131,7 +131,7 @@ jQuery(document).ready(function ($) {
 		}
 	},
 	"retina_detect": true
-});
+});*/
 
 
 

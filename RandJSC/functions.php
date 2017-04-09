@@ -17,30 +17,33 @@ add_filter('upload_mimes', 'cc_mime_types');
 
 // END of code from Verko
 
-
 // R&JSC START
 
 function randjsc_custom_style() {
-    wp_enqueue_style('randj-styles', CHILD_THEME_URI . '/builds/development/css/style.css', array(), null, 'screen' );
+    wp_enqueue_style('randj-styles', CHILD_THEME_URI . '/builds/development/css/style.min.css', array(), null, 'screen' );
     // wp_enqueue_script( 'jqry', 'https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js' );
-    wp_enqueue_script( 'particles', 'http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js' );
+    // wp_enqueue_script( 'particles', 'http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js' );
     wp_enqueue_script( 'randj-script', CHILD_THEME_URI . '/builds/development/js/scripts.js', array('jquery'), '1.12.4' );
-
 }
-
 add_action( 'wp_enqueue_scripts', 'randjsc_custom_style' );
 
 register_taxonomy( 
-            'portfolio_tag', 
-            'portfolio', 
-            array( 
-                'hierarchical'  => false, 
-                'label'         => __( 'Tags', CURRENT_THEME ), 
-                'singular_name' => __( 'Tag', CURRENT_THEME ), 
-                'rewrite'       => true, 
-                'query_var'     => true 
-            )  
-        );
+    'portfolio_tag', 
+    'portfolio', 
+    array( 
+        'hierarchical'  => false, 
+        'label'         => __( 'Tags', CURRENT_THEME ), 
+        'singular_name' => __( 'Tag', CURRENT_THEME ), 
+        'rewrite'       => true, 
+        'query_var'     => true 
+    )  
+);
+
+
+function rj_custom_image_sizes() {
+    add_image_size('blog-index-thumb', 370, 278, true);
+}
+add_action( 'after_setup_theme', 'rj_custom_image_sizes', 11 );
 
 
 /**
