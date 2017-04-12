@@ -860,7 +860,7 @@ HOME PAGE GRID
 }
 
 .awards .awarded .vc_gitem-zone.vc_gitem-zone-c {
-    background-image: url(http://www.dev.randjsc.com/wp-content/uploads/2016/12/Awards-FINAL.png);
+    background-image: url(http://www.randjsc.com/wp-content/themes/randjsc/images/Awards-FINAL-70.png);
     background-size: contain;
     background-repeat: no-repeat;
 }
@@ -913,4 +913,17 @@ HOME PAGE GRID
 }
 .footer-primary-widgets {
     padding: 40px 0 30px;
+}
+
+.post-pagination .navi-prev, .post-pagination .navi-next {
+    line-height: 1.4;
+}
+.logo-shiftnav-bar {
+    width: 60px;
+}
+
+
+/* Show Title on single blog posts */
+.single .entry-header h1 {
+    display: block!important;
 }

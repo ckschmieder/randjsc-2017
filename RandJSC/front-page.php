@@ -1,11 +1,11 @@
 <?php get_header(); ?>
 
 <div id="hero_image" class="hero-image">
-	<div class="hero-image__bg-image " style=" background-image:url('http://www.dev.randjsc.com/wp-content/uploads/videos/home-mobile-bg.jpg'); display: none; "></div>
+	<div class="hero-image__bg-image " style=" background-image:url('http://www.randjsc.com/wp-content/uploads/videos/home-mobile-bg.jpg'); display: none; "></div>
 	<video class="hero-image__video" muted autoplay loop>
-		<source src="http://www.dev.randjsc.com/wp-content/uploads/videos/Video-Montage-Homepage-720p.mp4" type="video/mp4">
-		<source src="http://www.dev.randjsc.com/wp-content/uploads/videos/Video-Montage-Homepage-720p.ogv" type="video/ogg">
-		<source src="http://www.dev.randjsc.com/wp-content/uploads/videos/Video-Montage-Homepage-720p.webm" type="video/webm">
+		<source src="http://www.randjsc.com/wp-content/uploads/videos/Video-Montage-Homepage-720p.mp4" type="video/mp4">
+		<source src="http://www.randjsc.com/wp-content/uploads/videos/Video-Montage-Homepage-720p.ogv" type="video/ogg">
+		<source src="http://www.randjsc.com/wp-content/uploads/videos/Video-Montage-Homepage-720p.webm" type="video/webm">
 	</video>
 	<div class="image-overlay"></div>
 	<div class="typed-wrap">
